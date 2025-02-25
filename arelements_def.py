@@ -1151,8 +1151,6 @@ def create_ports(swc_type): #completed
 
 		ports=ET.SubElement(parameter_sw_component_type,'PORTS')	
 		
-
-	
 	else :
 		pass
 

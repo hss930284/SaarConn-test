@@ -1,0 +1,285 @@
+Line 4474 (Old File): <ELEMENTS>
+Line 4474 (New File): <ELEMENTS />
+-------------------------
+Line 4475 (Old File): <CLIENT-SERVER-INTERFACE >
+Line 4476 (Old File): <SHORT-NAME>CS1</SHORT-NAME>
+Line 4477 (Old File): <IS-SERVICE>false</IS-SERVICE>
+Line 4478 (Old File): <OPERATIONS>
+Line 4479 (Old File): <CLIENT-SERVER-OPERATION >
+Line 4480 (Old File): <SHORT-NAME>OPr1</SHORT-NAME>
+Line 4481 (Old File): <ARGUMENTS>
+Line 4482 (Old File): <ARGUMENT-DATA-PROTOTYPE >
+Line 4483 (Old File): <SHORT-NAME>abc1</SHORT-NAME>
+Line 4484 (Old File): <SW-DATA-DEF-PROPS>
+Line 4485 (Old File): <SW-DATA-DEF-PROPS-VARIANTS>
+Line 4486 (Old File): <SW-DATA-DEF-PROPS-CONDITIONAL>
+Line 4487 (Old File): <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+Line 4488 (Old File): </SW-DATA-DEF-PROPS-CONDITIONAL>
+Line 4489 (Old File): </SW-DATA-DEF-PROPS-VARIANTS>
+Line 4490 (Old File): </SW-DATA-DEF-PROPS>
+Line 4491 (Old File): <TYPE-TREF DEST="APPLICATION-PRIMITIVE-DATA-TYPE">/SharedElements/ApplicationDataTypes/Primitive/ADTS_CrshSt</TYPE-TREF>
+Line 4492 (Old File): <DIRECTION>IN</DIRECTION>
+Line 4493 (Old File): <SERVER-ARGUMENT-IMPL-POLICY>USE-ARGUMENT-TYPE</SERVER-ARGUMENT-IMPL-POLICY>
+Line 4494 (Old File): </ARGUMENT-DATA-PROTOTYPE>
+Line 4495 (Old File): <ARGUMENT-DATA-PROTOTYPE >
+Line 4496 (Old File): <SHORT-NAME>abc2</SHORT-NAME>
+Line 4497 (Old File): <SW-DATA-DEF-PROPS>
+Line 4498 (Old File): <SW-DATA-DEF-PROPS-VARIANTS>
+Line 4499 (Old File): <SW-DATA-DEF-PROPS-CONDITIONAL>
+Line 4500 (Old File): <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+Line 4501 (Old File): </SW-DATA-DEF-PROPS-CONDITIONAL>
+Line 4502 (Old File): </SW-DATA-DEF-PROPS-VARIANTS>
+Line 4503 (Old File): </SW-DATA-DEF-PROPS>
+Line 4504 (Old File): <TYPE-TREF DEST="APPLICATION-PRIMITIVE-DATA-TYPE">/SharedElements/ApplicationDataTypes/Primitive/ADTS_CrshSt</TYPE-TREF>
+Line 4505 (Old File): <DIRECTION>IN</DIRECTION>
+Line 4506 (Old File): <SERVER-ARGUMENT-IMPL-POLICY>USE-ARGUMENT-TYPE</SERVER-ARGUMENT-IMPL-POLICY>
+Line 4507 (Old File): </ARGUMENT-DATA-PROTOTYPE>
+Line 4508 (Old File): </ARGUMENTS>
+Line 4509 (Old File): </CLIENT-SERVER-OPERATION>
+Line 4510 (Old File): <CLIENT-SERVER-OPERATION >
+Line 4511 (Old File): <SHORT-NAME>opr2</SHORT-NAME>
+Line 4512 (Old File): <ARGUMENTS>
+Line 4513 (Old File): <ARGUMENT-DATA-PROTOTYPE >
+Line 4514 (Old File): <SHORT-NAME>abc3</SHORT-NAME>
+Line 4515 (Old File): <SW-DATA-DEF-PROPS>
+Line 4516 (Old File): <SW-DATA-DEF-PROPS-VARIANTS>
+Line 4517 (Old File): <SW-DATA-DEF-PROPS-CONDITIONAL>
+Line 4518 (Old File): <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+Line 4519 (Old File): </SW-DATA-DEF-PROPS-CONDITIONAL>
+Line 4520 (Old File): </SW-DATA-DEF-PROPS-VARIANTS>
+Line 4521 (Old File): </SW-DATA-DEF-PROPS>
+Line 4522 (Old File): <TYPE-TREF DEST="APPLICATION-PRIMITIVE-DATA-TYPE">/SharedElements/ApplicationDataTypes/Primitive/ADTS_CrshSt</TYPE-TREF>
+Line 4523 (Old File): <DIRECTION>IN</DIRECTION>
+Line 4524 (Old File): <SERVER-ARGUMENT-IMPL-POLICY>USE-ARGUMENT-TYPE</SERVER-ARGUMENT-IMPL-POLICY>
+Line 4525 (Old File): </ARGUMENT-DATA-PROTOTYPE>
+Line 4526 (Old File): <ARGUMENT-DATA-PROTOTYPE >
+Line 4527 (Old File): <SHORT-NAME>abc4</SHORT-NAME>
+Line 4528 (Old File): <SW-DATA-DEF-PROPS>
+Line 4529 (Old File): <SW-DATA-DEF-PROPS-VARIANTS>
+Line 4530 (Old File): <SW-DATA-DEF-PROPS-CONDITIONAL>
+Line 4531 (Old File): <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+Line 4532 (Old File): </SW-DATA-DEF-PROPS-CONDITIONAL>
+Line 4533 (Old File): </SW-DATA-DEF-PROPS-VARIANTS>
+Line 4534 (Old File): </SW-DATA-DEF-PROPS>
+Line 4535 (Old File): <TYPE-TREF DEST="APPLICATION-PRIMITIVE-DATA-TYPE">/SharedElements/ApplicationDataTypes/Primitive/ADTS_CrshSt</TYPE-TREF>
+Line 4536 (Old File): <DIRECTION>IN</DIRECTION>
+Line 4537 (Old File): <SERVER-ARGUMENT-IMPL-POLICY>USE-ARGUMENT-TYPE</SERVER-ARGUMENT-IMPL-POLICY>
+Line 4538 (Old File): </ARGUMENT-DATA-PROTOTYPE>
+Line 4539 (Old File): <ARGUMENT-DATA-PROTOTYPE >
+Line 4540 (Old File): <SHORT-NAME>abc5</SHORT-NAME>
+Line 4541 (Old File): <SW-DATA-DEF-PROPS>
+Line 4542 (Old File): <SW-DATA-DEF-PROPS-VARIANTS>
+Line 4543 (Old File): <SW-DATA-DEF-PROPS-CONDITIONAL>
+Line 4544 (Old File): <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+Line 4545 (Old File): </SW-DATA-DEF-PROPS-CONDITIONAL>
+Line 4546 (Old File): </SW-DATA-DEF-PROPS-VARIANTS>
+Line 4547 (Old File): </SW-DATA-DEF-PROPS>
+Line 4548 (Old File): <TYPE-TREF DEST="APPLICATION-PRIMITIVE-DATA-TYPE">/SharedElements/ApplicationDataTypes/Primitive/ADTS_CrshSt</TYPE-TREF>
+Line 4549 (Old File): <DIRECTION>IN</DIRECTION>
+Line 4550 (Old File): <SERVER-ARGUMENT-IMPL-POLICY>USE-ARGUMENT-TYPE</SERVER-ARGUMENT-IMPL-POLICY>
+Line 4551 (Old File): </ARGUMENT-DATA-PROTOTYPE>
+Line 4552 (Old File): </ARGUMENTS>
+Line 4553 (Old File): </CLIENT-SERVER-OPERATION>
+Line 4554 (Old File): </OPERATIONS>
+Line 4555 (Old File): </CLIENT-SERVER-INTERFACE>
+Line 4556 (Old File): </ELEMENTS>
+Line 4688 (New File): </VARIABLE-DATA-PROTOTYPE>
+-------------------------
+Line 4689 (New File): </DATA-ELEMENTS>
+-------------------------
+Line 4690 (New File): </SENDER-RECEIVER-INTERFACE>
+-------------------------
+Line 4691 (New File): <SENDER-RECEIVER-INTERFACE >
+-------------------------
+Line 4692 (New File): <SHORT-NAME>CS1</SHORT-NAME>
+-------------------------
+Line 4693 (New File): <IS-SERVICE>false</IS-SERVICE>
+-------------------------
+Line 4694 (New File): <DATA-ELEMENTS>
+-------------------------
+Line 4695 (New File): <VARIABLE-DATA-PROTOTYPE >
+-------------------------
+Line 4696 (New File): <SHORT-NAME>OPr1</SHORT-NAME>
+-------------------------
+Line 4697 (New File): <SW-DATA-DEF-PROPS>
+-------------------------
+Line 4698 (New File): <SW-DATA-DEF-PROPS-VARIANTS>
+-------------------------
+Line 4699 (New File): <SW-DATA-DEF-PROPS-CONDITIONAL>
+-------------------------
+Line 4700 (New File): <SW-CALIBRATION-ACCESS>READ-WRITE</SW-CALIBRATION-ACCESS>
+-------------------------
+Line 4701 (New File): <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+-------------------------
+Line 4702 (New File): </SW-DATA-DEF-PROPS-CONDITIONAL>
+-------------------------
+Line 4703 (New File): </SW-DATA-DEF-PROPS-VARIANTS>
+-------------------------
+Line 4704 (New File): </SW-DATA-DEF-PROPS>
+-------------------------
+Line 4705 (New File): <TYPE-TREF DEST="APPLICATION-PRIMITIVE-DATA-TYPE">/SharedElements/ApplicationDataTypes/Primitive/ADTS_CrshSt</TYPE-TREF>
+-------------------------
+Line 4706 (New File): </VARIABLE-DATA-PROTOTYPE>
+-------------------------
+Line 4707 (New File): <VARIABLE-DATA-PROTOTYPE >
+-------------------------
+Line 4708 (New File): <SHORT-NAME>OPr1</SHORT-NAME>
+-------------------------
+Line 4709 (New File): <SW-DATA-DEF-PROPS>
+-------------------------
+Line 4710 (New File): <SW-DATA-DEF-PROPS-VARIANTS>
+-------------------------
+Line 4711 (New File): <SW-DATA-DEF-PROPS-CONDITIONAL>
+-------------------------
+Line 4712 (New File): <SW-CALIBRATION-ACCESS>READ-WRITE</SW-CALIBRATION-ACCESS>
+-------------------------
+Line 4713 (New File): <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+-------------------------
+Line 4714 (New File): </SW-DATA-DEF-PROPS-CONDITIONAL>
+-------------------------
+Line 4715 (New File): </SW-DATA-DEF-PROPS-VARIANTS>
+-------------------------
+Line 4716 (New File): </SW-DATA-DEF-PROPS>
+-------------------------
+Line 4717 (New File): <TYPE-TREF DEST="APPLICATION-PRIMITIVE-DATA-TYPE">/SharedElements/ApplicationDataTypes/Primitive/ADTS_CrshSt</TYPE-TREF>
+-------------------------
+Line 4718 (New File): </VARIABLE-DATA-PROTOTYPE>
+-------------------------
+Line 4719 (New File): <VARIABLE-DATA-PROTOTYPE >
+-------------------------
+Line 4720 (New File): <SHORT-NAME>opr2</SHORT-NAME>
+-------------------------
+Line 4721 (New File): <SW-DATA-DEF-PROPS>
+-------------------------
+Line 4722 (New File): <SW-DATA-DEF-PROPS-VARIANTS>
+-------------------------
+Line 4723 (New File): <SW-DATA-DEF-PROPS-CONDITIONAL>
+-------------------------
+Line 4724 (New File): <SW-CALIBRATION-ACCESS>READ-WRITE</SW-CALIBRATION-ACCESS>
+-------------------------
+Line 4725 (New File): <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+-------------------------
+Line 4726 (New File): </SW-DATA-DEF-PROPS-CONDITIONAL>
+-------------------------
+Line 4727 (New File): </SW-DATA-DEF-PROPS-VARIANTS>
+-------------------------
+Line 4728 (New File): </SW-DATA-DEF-PROPS>
+-------------------------
+Line 4729 (New File): <TYPE-TREF DEST="APPLICATION-PRIMITIVE-DATA-TYPE">/SharedElements/ApplicationDataTypes/Primitive/ADTS_CrshSt</TYPE-TREF>
+-------------------------
+Line 4730 (New File): </VARIABLE-DATA-PROTOTYPE>
+-------------------------
+Line 4731 (New File): <VARIABLE-DATA-PROTOTYPE >
+-------------------------
+Line 4732 (New File): <SHORT-NAME>opr2</SHORT-NAME>
+-------------------------
+Line 4733 (New File): <SW-DATA-DEF-PROPS>
+-------------------------
+Line 4734 (New File): <SW-DATA-DEF-PROPS-VARIANTS>
+-------------------------
+Line 4735 (New File): <SW-DATA-DEF-PROPS-CONDITIONAL>
+-------------------------
+Line 4736 (New File): <SW-CALIBRATION-ACCESS>READ-WRITE</SW-CALIBRATION-ACCESS>
+-------------------------
+Line 4737 (New File): <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+-------------------------
+Line 4738 (New File): </SW-DATA-DEF-PROPS-CONDITIONAL>
+-------------------------
+Line 4739 (New File): </SW-DATA-DEF-PROPS-VARIANTS>
+-------------------------
+Line 4740 (New File): </SW-DATA-DEF-PROPS>
+-------------------------
+Line 4741 (New File): <TYPE-TREF DEST="APPLICATION-PRIMITIVE-DATA-TYPE">/SharedElements/ApplicationDataTypes/Primitive/ADTS_CrshSt</TYPE-TREF>
+-------------------------
+Line 4742 (New File): </VARIABLE-DATA-PROTOTYPE>
+-------------------------
+Line 4743 (New File): <VARIABLE-DATA-PROTOTYPE >
+-------------------------
+Line 4744 (New File): <SHORT-NAME>opr2</SHORT-NAME>
+-------------------------
+Line 4745 (New File): <SW-DATA-DEF-PROPS>
+-------------------------
+Line 4746 (New File): <SW-DATA-DEF-PROPS-VARIANTS>
+-------------------------
+Line 4747 (New File): <SW-DATA-DEF-PROPS-CONDITIONAL>
+-------------------------
+Line 4748 (New File): <SW-CALIBRATION-ACCESS>READ-WRITE</SW-CALIBRATION-ACCESS>
+-------------------------
+Line 4749 (New File): <SW-IMPL-POLICY>STANDARD</SW-IMPL-POLICY>
+-------------------------
+Line 4750 (New File): </SW-DATA-DEF-PROPS-CONDITIONAL>
+-------------------------
+Line 4751 (New File): </SW-DATA-DEF-PROPS-VARIANTS>
+-------------------------
+Line 4752 (New File): </SW-DATA-DEF-PROPS>
+-------------------------
+Line 4753 (New File): <TYPE-TREF DEST="APPLICATION-PRIMITIVE-DATA-TYPE">/SharedElements/ApplicationDataTypes/Primitive/ADTS_CrshSt</TYPE-TREF>
+-------------------------
+Line 4889 (Old File): <REQUIRED-INTERFACE-TREF DEST="CLIENT-SERVER-INTERFACE">/SharedElements/PortInterfaces/ClientServer/CS1</REQUIRED-INTERFACE-TREF>
+Line 4873 (New File): <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/SharedElements/PortInterfaces/SenderReceiver/CS1</REQUIRED-INTERFACE-TREF>
+-------------------------
+Line 4893 (Old File): <REQUIRED-INTERFACE-TREF DEST="CLIENT-SERVER-INTERFACE">/SharedElements/PortInterfaces/ClientServer/CS1</REQUIRED-INTERFACE-TREF>
+Line 4877 (New File): <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/SharedElements/PortInterfaces/SenderReceiver/CS1</REQUIRED-INTERFACE-TREF>
+-------------------------
+Line 4897 (Old File): <REQUIRED-INTERFACE-TREF DEST="CLIENT-SERVER-INTERFACE">/SharedElements/PortInterfaces/ClientServer/CS1</REQUIRED-INTERFACE-TREF>
+Line 4881 (New File): <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/SharedElements/PortInterfaces/SenderReceiver/CS1</REQUIRED-INTERFACE-TREF>
+-------------------------
+Line 4901 (Old File): <REQUIRED-INTERFACE-TREF DEST="CLIENT-SERVER-INTERFACE">/SharedElements/PortInterfaces/ClientServer/CS1</REQUIRED-INTERFACE-TREF>
+Line 4885 (New File): <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/SharedElements/PortInterfaces/SenderReceiver/CS1</REQUIRED-INTERFACE-TREF>
+-------------------------
+Line 4905 (Old File): <REQUIRED-INTERFACE-TREF DEST="CLIENT-SERVER-INTERFACE">/SharedElements/PortInterfaces/ClientServer/CS1</REQUIRED-INTERFACE-TREF>
+Line 4889 (New File): <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/SharedElements/PortInterfaces/SenderReceiver/CS1</REQUIRED-INTERFACE-TREF>
+-------------------------
+Line 4890 (New File): </R-PORT-PROTOTYPE>
+-------------------------
+Line 4891 (New File): <R-PORT-PROTOTYPE >
+-------------------------
+Line 4892 (New File): <SHORT-NAME>Trigger_R_Port</SHORT-NAME>
+-------------------------
+Line 4893 (New File): <REQUIRED-INTERFACE-TREF DEST="TRIGGER-INTERFACE">/SharedElements/PortInterfaces/Trigger/Trigger1</REQUIRED-INTERFACE-TREF>
+-------------------------
+Line 5225 (Old File): <SERVER-CALL-POINTS />
+Line 5226 (Old File): <SERVER-CALL-POINTS />
+Line 5227 (Old File): <SERVER-CALL-POINTS />
+Line 5228 (Old File): <SERVER-CALL-POINTS />
+Line 5229 (Old File): <SERVER-CALL-POINTS>
+Line 5230 (Old File): <SYNCHRONOUS-SERVER-CALL-POINT >
+Line 5231 (Old File): <SHORT-NAME>SSCP_CS_R_Port_OPr1</SHORT-NAME>
+Line 5232 (Old File): <OPERATION-IREF>
+Line 5233 (Old File): <CONTEXT-R-PORT-REF DEST="R-PORT-PROTOTYPE">/SwComponentTypes/ApplSWC/Asw_swc/CS_R_Port</CONTEXT-R-PORT-REF>
+Line 5234 (Old File): <TARGET-REQUIRED-OPERATION-REF DEST="CLIENT-SERVER-OPERATION">/SharedElements/PortInterfaces/ClientServer/CS1/OPr1</TARGET-REQUIRED-OPERATION-REF>
+Line 5235 (Old File): </OPERATION-IREF>
+Line 5236 (Old File): <TIMEOUT>0</TIMEOUT>
+Line 5237 (Old File): </SYNCHRONOUS-SERVER-CALL-POINT>
+Line 5238 (Old File): <SYNCHRONOUS-SERVER-CALL-POINT >
+Line 5239 (Old File): <SHORT-NAME>SSCP_CS_R_Port_OPr1</SHORT-NAME>
+Line 5240 (Old File): <OPERATION-IREF>
+Line 5241 (Old File): <CONTEXT-R-PORT-REF DEST="R-PORT-PROTOTYPE">/SwComponentTypes/ApplSWC/Asw_swc/CS_R_Port</CONTEXT-R-PORT-REF>
+Line 5242 (Old File): <TARGET-REQUIRED-OPERATION-REF DEST="CLIENT-SERVER-OPERATION">/SharedElements/PortInterfaces/ClientServer/CS1/OPr1</TARGET-REQUIRED-OPERATION-REF>
+Line 5243 (Old File): </OPERATION-IREF>
+Line 5244 (Old File): <TIMEOUT>0</TIMEOUT>
+Line 5245 (Old File): </SYNCHRONOUS-SERVER-CALL-POINT>
+Line 5246 (Old File): <SYNCHRONOUS-SERVER-CALL-POINT >
+Line 5247 (Old File): <SHORT-NAME>SSCP_CS_R_Port_opr2</SHORT-NAME>
+Line 5248 (Old File): <OPERATION-IREF>
+Line 5249 (Old File): <CONTEXT-R-PORT-REF DEST="R-PORT-PROTOTYPE">/SwComponentTypes/ApplSWC/Asw_swc/CS_R_Port</CONTEXT-R-PORT-REF>
+Line 5250 (Old File): <TARGET-REQUIRED-OPERATION-REF DEST="CLIENT-SERVER-OPERATION">/SharedElements/PortInterfaces/ClientServer/CS1/opr2</TARGET-REQUIRED-OPERATION-REF>
+Line 5251 (Old File): </OPERATION-IREF>
+Line 5252 (Old File): <TIMEOUT>0</TIMEOUT>
+Line 5253 (Old File): </SYNCHRONOUS-SERVER-CALL-POINT>
+Line 5254 (Old File): <SYNCHRONOUS-SERVER-CALL-POINT >
+Line 5255 (Old File): <SHORT-NAME>SSCP_CS_R_Port_opr2</SHORT-NAME>
+Line 5256 (Old File): <OPERATION-IREF>
+Line 5257 (Old File): <CONTEXT-R-PORT-REF DEST="R-PORT-PROTOTYPE">/SwComponentTypes/ApplSWC/Asw_swc/CS_R_Port</CONTEXT-R-PORT-REF>
+Line 5258 (Old File): <TARGET-REQUIRED-OPERATION-REF DEST="CLIENT-SERVER-OPERATION">/SharedElements/PortInterfaces/ClientServer/CS1/opr2</TARGET-REQUIRED-OPERATION-REF>
+Line 5259 (Old File): </OPERATION-IREF>
+Line 5260 (Old File): <TIMEOUT>0</TIMEOUT>
+Line 5261 (Old File): </SYNCHRONOUS-SERVER-CALL-POINT>
+Line 5262 (Old File): <SYNCHRONOUS-SERVER-CALL-POINT >
+Line 5263 (Old File): <SHORT-NAME>SSCP_CS_R_Port_opr2</SHORT-NAME>
+Line 5264 (Old File): <OPERATION-IREF>
+Line 5265 (Old File): <CONTEXT-R-PORT-REF DEST="R-PORT-PROTOTYPE">/SwComponentTypes/ApplSWC/Asw_swc/CS_R_Port</CONTEXT-R-PORT-REF>
+Line 5266 (Old File): <TARGET-REQUIRED-OPERATION-REF DEST="CLIENT-SERVER-OPERATION">/SharedElements/PortInterfaces/ClientServer/CS1/opr2</TARGET-REQUIRED-OPERATION-REF>
+Line 5267 (Old File): </OPERATION-IREF>
+Line 5268 (Old File): <TIMEOUT>0</TIMEOUT>
+Line 5269 (Old File): </SYNCHRONOUS-SERVER-CALL-POINT>

@@ -1,0 +1,1839 @@
+
+=== Validation Attempt 1 at 2025-02-25 13:28:46 ===
+
+[Critical ERRORS]
+[swc_info] Missing value at N2
+[swc_info] Missing value at O2
+[swc_info] Missing value at A3
+[swc_info] Missing value at N3
+[swc_info] Missing value at O3
+[swc_info] Missing value at N4
+[swc_info] Missing value at O4
+[swc_info] Missing value at N5
+[swc_info] Missing value at O5
+[swc_info] Missing value at A6
+[swc_info] Missing value at B6
+[swc_info] Missing value at C6
+[swc_info] Missing value at E6
+[swc_info] Missing value at F6
+[swc_info] Missing value at G6
+[swc_info] Missing value at H6
+[swc_info] Missing value at J6
+[swc_info] Missing value at K6
+[swc_info] Missing value at L6
+[swc_info] Missing value at N6
+[swc_info] Missing value at O6
+[swc_info] Missing value at A7
+[swc_info] Missing value at B7
+[swc_info] Missing value at C7
+[swc_info] Missing value at E7
+[swc_info] Missing value at F7
+[swc_info] Missing value at G7
+[swc_info] Missing value at H7
+[swc_info] Missing value at J7
+[swc_info] Missing value at K7
+[swc_info] Missing value at L7
+[swc_info] Missing value at N7
+[swc_info] Missing value at O7
+[swc_info] Missing value at A8
+[swc_info] Missing value at B8
+[swc_info] Missing value at C8
+[swc_info] Missing value at E8
+[swc_info] Missing value at F8
+[swc_info] Missing value at G8
+[swc_info] Missing value at H8
+[swc_info] Missing value at J8
+[swc_info] Missing value at K8
+[swc_info] Missing value at L8
+[swc_info] Missing value at N8
+[swc_info] Missing value at O8
+[swc_info] Missing value at A9
+[swc_info] Missing value at B9
+[swc_info] Missing value at C9
+[swc_info] Missing value at E9
+[swc_info] Missing value at F9
+[swc_info] Missing value at G9
+[swc_info] Missing value at H9
+[swc_info] Missing value at J9
+[swc_info] Missing value at K9
+[swc_info] Missing value at L9
+[swc_info] Missing value at N9
+[swc_info] Missing value at O9
+[swc_info] Missing value at A10
+[swc_info] Missing value at B10
+[swc_info] Missing value at C10
+[swc_info] Missing value at E10
+[swc_info] Missing value at F10
+[swc_info] Missing value at G10
+[swc_info] Missing value at H10
+[swc_info] Missing value at J10
+[swc_info] Missing value at K10
+[swc_info] Missing value at L10
+[swc_info] Missing value at N10
+[swc_info] Missing value at O10
+[swc_info] Missing value at A11
+[swc_info] Missing value at B11
+[swc_info] Missing value at C11
+[swc_info] Missing value at E11
+[swc_info] Missing value at F11
+[swc_info] Missing value at G11
+[swc_info] Missing value at H11
+[swc_info] Missing value at J11
+[swc_info] Missing value at K11
+[swc_info] Missing value at L11
+[swc_info] Missing value at N11
+[swc_info] Missing value at O11
+[swc_info] Missing value at A12
+[swc_info] Missing value at B12
+[swc_info] Missing value at C12
+[swc_info] Missing value at E12
+[swc_info] Missing value at F12
+[swc_info] Missing value at G12
+[swc_info] Missing value at H12
+[swc_info] Missing value at J12
+[swc_info] Missing value at K12
+[swc_info] Missing value at L12
+[swc_info] Missing value at N12
+[swc_info] Missing value at O12
+[swc_info] Missing value at A13
+[swc_info] Missing value at B13
+[swc_info] Missing value at C13
+[swc_info] Missing value at E13
+[swc_info] Missing value at F13
+[swc_info] Missing value at G13
+[swc_info] Missing value at H13
+[swc_info] Missing value at J13
+[swc_info] Missing value at K13
+[swc_info] Missing value at L13
+[swc_info] Missing value at N13
+[swc_info] Missing value at O13
+[swc_info] Missing value at A14
+[swc_info] Missing value at B14
+[swc_info] Missing value at C14
+[swc_info] Missing value at E14
+[swc_info] Missing value at F14
+[swc_info] Missing value at G14
+[swc_info] Missing value at H14
+[swc_info] Missing value at J14
+[swc_info] Missing value at K14
+[swc_info] Missing value at L14
+[swc_info] Missing value at N14
+[swc_info] Missing value at O14
+[swc_info] Missing value at A15
+[swc_info] Missing value at B15
+[swc_info] Missing value at C15
+[swc_info] Missing value at E15
+[swc_info] Missing value at F15
+[swc_info] Missing value at G15
+[swc_info] Missing value at H15
+[swc_info] Missing value at J15
+[swc_info] Missing value at K15
+[swc_info] Missing value at L15
+[swc_info] Missing value at N15
+[swc_info] Missing value at O15
+[swc_info] Missing value at A16
+[swc_info] Missing value at B16
+[swc_info] Missing value at C16
+[swc_info] Missing value at E16
+[swc_info] Missing value at F16
+[swc_info] Missing value at G16
+[swc_info] Missing value at H16
+[swc_info] Missing value at J16
+[swc_info] Missing value at K16
+[swc_info] Missing value at L16
+[swc_info] Missing value at N16
+[swc_info] Missing value at O16
+[swc_info] Missing value at A17
+[swc_info] Missing value at B17
+[swc_info] Missing value at C17
+[swc_info] Missing value at E17
+[swc_info] Missing value at F17
+[swc_info] Missing value at G17
+[swc_info] Missing value at H17
+[swc_info] Missing value at J17
+[swc_info] Missing value at K17
+[swc_info] Missing value at L17
+[swc_info] Missing value at N17
+[swc_info] Missing value at O17
+[swc_info] Missing value at A18
+[swc_info] Missing value at B18
+[swc_info] Missing value at C18
+[swc_info] Missing value at E18
+[swc_info] Missing value at F18
+[swc_info] Missing value at G18
+[swc_info] Missing value at H18
+[swc_info] Missing value at J18
+[swc_info] Missing value at K18
+[swc_info] Missing value at L18
+[swc_info] Missing value at N18
+[swc_info] Missing value at O18
+[swc_info] Missing value at A19
+[swc_info] Missing value at B19
+[swc_info] Missing value at C19
+[swc_info] Missing value at E19
+[swc_info] Missing value at F19
+[swc_info] Missing value at G19
+[swc_info] Missing value at H19
+[swc_info] Missing value at J19
+[swc_info] Missing value at K19
+[swc_info] Missing value at L19
+[swc_info] Missing value at N19
+[swc_info] Missing value at O19
+[swc_info] Missing value at A20
+[swc_info] Missing value at B20
+[swc_info] Missing value at C20
+[swc_info] Missing value at E20
+[swc_info] Missing value at F20
+[swc_info] Missing value at G20
+[swc_info] Missing value at H20
+[swc_info] Missing value at J20
+[swc_info] Missing value at K20
+[swc_info] Missing value at L20
+[swc_info] Missing value at N20
+[swc_info] Missing value at O20
+[swc_info] Missing value at A21
+[swc_info] Missing value at B21
+[swc_info] Missing value at C21
+[swc_info] Missing value at E21
+[swc_info] Missing value at F21
+[swc_info] Missing value at G21
+[swc_info] Missing value at H21
+[swc_info] Missing value at J21
+[swc_info] Missing value at K21
+[swc_info] Missing value at L21
+[swc_info] Missing value at N21
+[swc_info] Missing value at O21
+[swc_info] Missing value at A22
+[swc_info] Missing value at B22
+[swc_info] Missing value at C22
+[swc_info] Missing value at E22
+[swc_info] Missing value at F22
+[swc_info] Missing value at G22
+[swc_info] Missing value at H22
+[swc_info] Missing value at J22
+[swc_info] Missing value at K22
+[swc_info] Missing value at L22
+[swc_info] Missing value at N22
+[swc_info] Missing value at O22
+[swc_info] Missing value at A23
+[swc_info] Missing value at B23
+[swc_info] Missing value at C23
+[swc_info] Missing value at E23
+[swc_info] Missing value at F23
+[swc_info] Missing value at G23
+[swc_info] Missing value at H23
+[swc_info] Missing value at J23
+[swc_info] Missing value at K23
+[swc_info] Missing value at L23
+[swc_info] Missing value at N23
+[swc_info] Missing value at O23
+[swc_info] Missing value at A24
+[swc_info] Missing value at B24
+[swc_info] Missing value at C24
+[swc_info] Missing value at E24
+[swc_info] Missing value at F24
+[swc_info] Missing value at G24
+[swc_info] Missing value at H24
+[swc_info] Missing value at J24
+[swc_info] Missing value at K24
+[swc_info] Missing value at L24
+[swc_info] Missing value at N24
+[swc_info] Missing value at O24
+[swc_info] Missing value at A25
+[swc_info] Missing value at B25
+[swc_info] Missing value at C25
+[swc_info] Missing value at E25
+[swc_info] Missing value at F25
+[swc_info] Missing value at G25
+[swc_info] Missing value at H25
+[swc_info] Missing value at J25
+[swc_info] Missing value at K25
+[swc_info] Missing value at L25
+[swc_info] Missing value at N25
+[swc_info] Missing value at O25
+[swc_info] Missing value at A26
+[swc_info] Missing value at B26
+[swc_info] Missing value at C26
+[swc_info] Missing value at E26
+[swc_info] Missing value at F26
+[swc_info] Missing value at G26
+[swc_info] Missing value at H26
+[swc_info] Missing value at J26
+[swc_info] Missing value at K26
+[swc_info] Missing value at L26
+[swc_info] Missing value at N26
+[swc_info] Missing value at O26
+[swc_info] Missing value at A27
+[swc_info] Missing value at B27
+[swc_info] Missing value at C27
+[swc_info] Missing value at E27
+[swc_info] Missing value at F27
+[swc_info] Missing value at G27
+[swc_info] Missing value at H27
+[swc_info] Missing value at J27
+[swc_info] Missing value at K27
+[swc_info] Missing value at L27
+[swc_info] Missing value at N27
+[swc_info] Missing value at O27
+[adt_primitive] Missing value at A6
+[adt_primitive] Missing value at A7
+[adt_primitive] Missing value at A8
+[adt_primitive] Missing value at A9
+[adt_primitive] Missing value at A10
+[adt_primitive] Missing value at A11
+[adt_primitive] Missing value at A12
+[adt_primitive] Missing value at A13
+[swc_info] Invalid value at M4 for event type 'TimingEvent'
+[ports] Duplicate value at C7: CD_CrshSt_R
+[ports] Duplicate value at C8: CD_CrshSt_R
+[ports] Duplicate value at C13: CD_CrshSt_R
+[ib_data] Invalid reference at D2: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D3: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D4: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D5: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D6: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D7: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D8: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D9: uint16 (not in adt_primitive.B)
+[ports] Invalid reference at H2: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H3: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H4: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H5: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H6: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H7: ADTS_CHAdeMOStat (not in adt_primitive.B)
+[ports] Invalid reference at H8: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H9: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H10: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H11: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H12: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H13: ADTS_CHAdeMOStat (not in adt_primitive.B)
+[ports] Invalid reference at H14: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H15: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H16: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H17: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H18: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H19: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H20: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H21: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H22: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H23: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H24: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H25: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H26: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H27: ADTS_CrshSt (not in adt_primitive.B)
+
+[Info ERRORS]
+[swc_info] Merged cell B3 is expected to be empty
+[swc_info] Merged cell C3 is expected to be empty
+[swc_info] Merged cell D3 is expected to be empty
+[swc_info] Merged cell E3 is expected to be empty
+[swc_info] Merged cell F3 is expected to be empty
+[swc_info] Merged cell G3 is expected to be empty
+[swc_info] Merged cell B4 is expected to be empty
+[swc_info] Merged cell C4 is expected to be empty
+[swc_info] Merged cell D4 is expected to be empty
+[swc_info] Merged cell E4 is expected to be empty
+[swc_info] Merged cell F4 is expected to be empty
+[swc_info] Merged cell G4 is expected to be empty
+[swc_info] Merged cell B5 is expected to be empty
+[swc_info] Merged cell C5 is expected to be empty
+[swc_info] Merged cell D5 is expected to be empty
+[swc_info] Merged cell E5 is expected to be empty
+[swc_info] Merged cell F5 is expected to be empty
+[swc_info] Merged cell G5 is expected to be empty
+[ports] Merged cell B3 is expected to be empty
+[ports] Merged cell C3 is expected to be empty
+[ports] Merged cell D3 is expected to be empty
+[ports] Merged cell E3 is expected to be empty
+[ports] Merged cell B4 is expected to be empty
+[ports] Merged cell C4 is expected to be empty
+[ports] Merged cell D4 is expected to be empty
+[ports] Merged cell E4 is expected to be empty
+[ports] Merged cell B5 is expected to be empty
+[ports] Merged cell C5 is expected to be empty
+[ports] Merged cell D5 is expected to be empty
+[ports] Merged cell E5 is expected to be empty
+[ports] Merged cell B6 is expected to be empty
+[ports] Merged cell C6 is expected to be empty
+[ports] Merged cell D6 is expected to be empty
+[ports] Merged cell E6 is expected to be empty
+[ports] Merged cell B9 is expected to be empty
+[ports] Merged cell C9 is expected to be empty
+[ports] Merged cell D9 is expected to be empty
+[ports] Merged cell E9 is expected to be empty
+[ports] Merged cell B10 is expected to be empty
+[ports] Merged cell C10 is expected to be empty
+[ports] Merged cell D10 is expected to be empty
+[ports] Merged cell E10 is expected to be empty
+[ports] Merged cell B11 is expected to be empty
+[ports] Merged cell C11 is expected to be empty
+[ports] Merged cell D11 is expected to be empty
+[ports] Merged cell E11 is expected to be empty
+[ports] Merged cell B12 is expected to be empty
+[ports] Merged cell C12 is expected to be empty
+[ports] Merged cell D12 is expected to be empty
+[ports] Merged cell E12 is expected to be empty
+[ports] Merged cell B15 is expected to be empty
+[ports] Merged cell C15 is expected to be empty
+[ports] Merged cell D15 is expected to be empty
+[ports] Merged cell E15 is expected to be empty
+[ports] Merged cell F15 is expected to be empty
+[ports] Merged cell B16 is expected to be empty
+[ports] Merged cell C16 is expected to be empty
+[ports] Merged cell D16 is expected to be empty
+[ports] Merged cell E16 is expected to be empty
+[ports] Merged cell F16 is expected to be empty
+[ports] Merged cell B17 is expected to be empty
+[ports] Merged cell C17 is expected to be empty
+[ports] Merged cell D17 is expected to be empty
+[ports] Merged cell E17 is expected to be empty
+[ports] Merged cell F17 is expected to be empty
+[ports] Merged cell B18 is expected to be empty
+[ports] Merged cell C18 is expected to be empty
+[ports] Merged cell D18 is expected to be empty
+[ports] Merged cell E18 is expected to be empty
+[ports] Merged cell F18 is expected to be empty
+[ports] Merged cell B20 is expected to be empty
+[ports] Merged cell C20 is expected to be empty
+[ports] Merged cell D20 is expected to be empty
+[ports] Merged cell E20 is expected to be empty
+[ports] Merged cell F20 is expected to be empty
+[ports] Merged cell B21 is expected to be empty
+[ports] Merged cell C21 is expected to be empty
+[ports] Merged cell D21 is expected to be empty
+[ports] Merged cell E21 is expected to be empty
+[ports] Merged cell B22 is expected to be empty
+[ports] Merged cell C22 is expected to be empty
+[ports] Merged cell D22 is expected to be empty
+[ports] Merged cell E22 is expected to be empty
+[ports] Merged cell F22 is expected to be empty
+[ports] Merged cell B23 is expected to be empty
+[ports] Merged cell C23 is expected to be empty
+[ports] Merged cell D23 is expected to be empty
+[ports] Merged cell E23 is expected to be empty
+[ports] Merged cell F23 is expected to be empty
+[ports] Merged cell B25 is expected to be empty
+[ports] Merged cell C25 is expected to be empty
+[ports] Merged cell D25 is expected to be empty
+[ports] Merged cell E25 is expected to be empty
+[ports] Merged cell F25 is expected to be empty
+[ports] Merged cell B26 is expected to be empty
+[ports] Merged cell C26 is expected to be empty
+[ports] Merged cell D26 is expected to be empty
+[ports] Merged cell E26 is expected to be empty
+[ports] Merged cell B27 is expected to be empty
+[ports] Merged cell C27 is expected to be empty
+[ports] Merged cell D27 is expected to be empty
+[ports] Merged cell E27 is expected to be empty
+[ports] Merged cell F27 is expected to be empty
+[adt_primitive] Merged cell A5 is expected to be empty
+[adt_primitive] Merged cell B5 is expected to be empty
+[adt_primitive] Merged cell C5 is expected to be empty
+[adt_primitive] Merged cell D5 is expected to be empty
+[adt_primitive] Merged cell E5 is expected to be empty
+[adt_primitive] Merged cell H5 is expected to be empty
+[adt_primitive] Merged cell I5 is expected to be empty
+[adt_primitive] Merged cell J5 is expected to be empty
+[adt_primitive] Merged cell K5 is expected to be empty
+[adt_primitive] Merged cell L5 is expected to be empty
+[adt_primitive] Merged cell M5 is expected to be empty
+[adt_primitive] Merged cell B7 is expected to be empty
+[adt_primitive] Merged cell C7 is expected to be empty
+[adt_primitive] Merged cell D7 is expected to be empty
+[adt_primitive] Merged cell E7 is expected to be empty
+[adt_primitive] Merged cell H7 is expected to be empty
+[adt_primitive] Merged cell I7 is expected to be empty
+[adt_primitive] Merged cell J7 is expected to be empty
+[adt_primitive] Merged cell K7 is expected to be empty
+[adt_primitive] Merged cell L7 is expected to be empty
+[adt_primitive] Merged cell M7 is expected to be empty
+[adt_primitive] Merged cell B8 is expected to be empty
+[adt_primitive] Merged cell C8 is expected to be empty
+[adt_primitive] Merged cell D8 is expected to be empty
+[adt_primitive] Merged cell E8 is expected to be empty
+[adt_primitive] Merged cell H8 is expected to be empty
+[adt_primitive] Merged cell I8 is expected to be empty
+[adt_primitive] Merged cell J8 is expected to be empty
+[adt_primitive] Merged cell K8 is expected to be empty
+[adt_primitive] Merged cell L8 is expected to be empty
+[adt_primitive] Merged cell M8 is expected to be empty
+[adt_primitive] Merged cell B9 is expected to be empty
+[adt_primitive] Merged cell C9 is expected to be empty
+[adt_primitive] Merged cell D9 is expected to be empty
+[adt_primitive] Merged cell E9 is expected to be empty
+[adt_primitive] Merged cell H9 is expected to be empty
+[adt_primitive] Merged cell I9 is expected to be empty
+[adt_primitive] Merged cell J9 is expected to be empty
+[adt_primitive] Merged cell K9 is expected to be empty
+[adt_primitive] Merged cell L9 is expected to be empty
+[adt_primitive] Merged cell M9 is expected to be empty
+[adt_primitive] Merged cell B10 is expected to be empty
+[adt_primitive] Merged cell C10 is expected to be empty
+[adt_primitive] Merged cell D10 is expected to be empty
+[adt_primitive] Merged cell E10 is expected to be empty
+[adt_primitive] Merged cell H10 is expected to be empty
+[adt_primitive] Merged cell I10 is expected to be empty
+[adt_primitive] Merged cell J10 is expected to be empty
+[adt_primitive] Merged cell K10 is expected to be empty
+[adt_primitive] Merged cell L10 is expected to be empty
+[adt_primitive] Merged cell M10 is expected to be empty
+[adt_primitive] Merged cell B11 is expected to be empty
+[adt_primitive] Merged cell C11 is expected to be empty
+[adt_primitive] Merged cell D11 is expected to be empty
+[adt_primitive] Merged cell E11 is expected to be empty
+[adt_primitive] Merged cell H11 is expected to be empty
+[adt_primitive] Merged cell I11 is expected to be empty
+[adt_primitive] Merged cell J11 is expected to be empty
+[adt_primitive] Merged cell K11 is expected to be empty
+[adt_primitive] Merged cell L11 is expected to be empty
+[adt_primitive] Merged cell M11 is expected to be empty
+[adt_primitive] Merged cell B12 is expected to be empty
+[adt_primitive] Merged cell C12 is expected to be empty
+[adt_primitive] Merged cell D12 is expected to be empty
+[adt_primitive] Merged cell E12 is expected to be empty
+[adt_primitive] Merged cell H12 is expected to be empty
+[adt_primitive] Merged cell I12 is expected to be empty
+[adt_primitive] Merged cell J12 is expected to be empty
+[adt_primitive] Merged cell K12 is expected to be empty
+[adt_primitive] Merged cell L12 is expected to be empty
+[adt_primitive] Merged cell M12 is expected to be empty
+[adt_primitive] Merged cell B13 is expected to be empty
+[adt_primitive] Merged cell C13 is expected to be empty
+[adt_primitive] Merged cell D13 is expected to be empty
+[adt_primitive] Merged cell E13 is expected to be empty
+[adt_primitive] Merged cell H13 is expected to be empty
+[adt_primitive] Merged cell I13 is expected to be empty
+[adt_primitive] Merged cell J13 is expected to be empty
+[adt_primitive] Merged cell K13 is expected to be empty
+[adt_primitive] Merged cell L13 is expected to be empty
+[adt_primitive] Merged cell M13 is expected to be empty
+[idt] Merged cell A3 is expected to be empty
+[idt] Merged cell B3 is expected to be empty
+[idt] Merged cell C3 is expected to be empty
+[idt] Merged cell A4 is expected to be empty
+[idt] Merged cell B4 is expected to be empty
+[idt] Merged cell C4 is expected to be empty
+[idt] Merged cell A5 is expected to be empty
+[idt] Merged cell B5 is expected to be empty
+[idt] Merged cell C5 is expected to be empty
+[adt_primitive] Merged cell E5 is expected to be empty
+[adt_primitive] Merged cell E7 is expected to be empty
+[adt_primitive] Merged cell E8 is expected to be empty
+[adt_primitive] Merged cell E9 is expected to be empty
+[adt_primitive] Merged cell E10 is expected to be empty
+[adt_primitive] Merged cell E11 is expected to be empty
+[adt_primitive] Merged cell E12 is expected to be empty
+[adt_primitive] Merged cell E13 is expected to be empty
+[idt] Merged cell B3 is expected to be empty
+[idt] Merged cell B4 is expected to be empty
+[idt] Merged cell B5 is expected to be empty
+[adt_composite] Numeric value in naming column at D6: 15
+[adt_composite] Numeric value in naming column at D7: 15
+[idt] Numeric value in naming column at D6: 15
+[idt] Numeric value in naming column at D7: 15
+[adt_composite] Duplicate numerical value at D7: 15
+[idt] Duplicate numerical value at D7: 15
+
+=== Validation Attempt 1 at 2025-02-25 13:44:02 ===
+
+[Critical ERRORS]
+[swc_info] Missing value at N2
+[swc_info] Missing value at O2
+[swc_info] Missing value at A3
+[swc_info] Missing value at N3
+[swc_info] Missing value at O3
+[swc_info] Missing value at N4
+[swc_info] Missing value at O4
+[swc_info] Missing value at N5
+[swc_info] Missing value at O5
+[swc_info] Missing value at A6
+[swc_info] Missing value at B6
+[swc_info] Missing value at C6
+[swc_info] Missing value at E6
+[swc_info] Missing value at F6
+[swc_info] Missing value at G6
+[swc_info] Missing value at H6
+[swc_info] Missing value at J6
+[swc_info] Missing value at K6
+[swc_info] Missing value at L6
+[swc_info] Missing value at N6
+[swc_info] Missing value at O6
+[swc_info] Missing value at A7
+[swc_info] Missing value at B7
+[swc_info] Missing value at C7
+[swc_info] Missing value at E7
+[swc_info] Missing value at F7
+[swc_info] Missing value at G7
+[swc_info] Missing value at H7
+[swc_info] Missing value at J7
+[swc_info] Missing value at K7
+[swc_info] Missing value at L7
+[swc_info] Missing value at N7
+[swc_info] Missing value at O7
+[swc_info] Missing value at A8
+[swc_info] Missing value at B8
+[swc_info] Missing value at C8
+[swc_info] Missing value at E8
+[swc_info] Missing value at F8
+[swc_info] Missing value at G8
+[swc_info] Missing value at H8
+[swc_info] Missing value at J8
+[swc_info] Missing value at K8
+[swc_info] Missing value at L8
+[swc_info] Missing value at N8
+[swc_info] Missing value at O8
+[swc_info] Missing value at A9
+[swc_info] Missing value at B9
+[swc_info] Missing value at C9
+[swc_info] Missing value at E9
+[swc_info] Missing value at F9
+[swc_info] Missing value at G9
+[swc_info] Missing value at H9
+[swc_info] Missing value at J9
+[swc_info] Missing value at K9
+[swc_info] Missing value at L9
+[swc_info] Missing value at N9
+[swc_info] Missing value at O9
+[swc_info] Missing value at A10
+[swc_info] Missing value at B10
+[swc_info] Missing value at C10
+[swc_info] Missing value at E10
+[swc_info] Missing value at F10
+[swc_info] Missing value at G10
+[swc_info] Missing value at H10
+[swc_info] Missing value at J10
+[swc_info] Missing value at K10
+[swc_info] Missing value at L10
+[swc_info] Missing value at N10
+[swc_info] Missing value at O10
+[swc_info] Missing value at A11
+[swc_info] Missing value at B11
+[swc_info] Missing value at C11
+[swc_info] Missing value at E11
+[swc_info] Missing value at F11
+[swc_info] Missing value at G11
+[swc_info] Missing value at H11
+[swc_info] Missing value at J11
+[swc_info] Missing value at K11
+[swc_info] Missing value at L11
+[swc_info] Missing value at N11
+[swc_info] Missing value at O11
+[swc_info] Missing value at A12
+[swc_info] Missing value at B12
+[swc_info] Missing value at C12
+[swc_info] Missing value at E12
+[swc_info] Missing value at F12
+[swc_info] Missing value at G12
+[swc_info] Missing value at H12
+[swc_info] Missing value at J12
+[swc_info] Missing value at K12
+[swc_info] Missing value at L12
+[swc_info] Missing value at N12
+[swc_info] Missing value at O12
+[swc_info] Missing value at A13
+[swc_info] Missing value at B13
+[swc_info] Missing value at C13
+[swc_info] Missing value at E13
+[swc_info] Missing value at F13
+[swc_info] Missing value at G13
+[swc_info] Missing value at H13
+[swc_info] Missing value at J13
+[swc_info] Missing value at K13
+[swc_info] Missing value at L13
+[swc_info] Missing value at N13
+[swc_info] Missing value at O13
+[swc_info] Missing value at A14
+[swc_info] Missing value at B14
+[swc_info] Missing value at C14
+[swc_info] Missing value at E14
+[swc_info] Missing value at F14
+[swc_info] Missing value at G14
+[swc_info] Missing value at H14
+[swc_info] Missing value at J14
+[swc_info] Missing value at K14
+[swc_info] Missing value at L14
+[swc_info] Missing value at N14
+[swc_info] Missing value at O14
+[swc_info] Missing value at A15
+[swc_info] Missing value at B15
+[swc_info] Missing value at C15
+[swc_info] Missing value at E15
+[swc_info] Missing value at F15
+[swc_info] Missing value at G15
+[swc_info] Missing value at H15
+[swc_info] Missing value at J15
+[swc_info] Missing value at K15
+[swc_info] Missing value at L15
+[swc_info] Missing value at N15
+[swc_info] Missing value at O15
+[swc_info] Missing value at A16
+[swc_info] Missing value at B16
+[swc_info] Missing value at C16
+[swc_info] Missing value at E16
+[swc_info] Missing value at F16
+[swc_info] Missing value at G16
+[swc_info] Missing value at H16
+[swc_info] Missing value at J16
+[swc_info] Missing value at K16
+[swc_info] Missing value at L16
+[swc_info] Missing value at N16
+[swc_info] Missing value at O16
+[swc_info] Missing value at A17
+[swc_info] Missing value at B17
+[swc_info] Missing value at C17
+[swc_info] Missing value at E17
+[swc_info] Missing value at F17
+[swc_info] Missing value at G17
+[swc_info] Missing value at H17
+[swc_info] Missing value at J17
+[swc_info] Missing value at K17
+[swc_info] Missing value at L17
+[swc_info] Missing value at N17
+[swc_info] Missing value at O17
+[swc_info] Missing value at A18
+[swc_info] Missing value at B18
+[swc_info] Missing value at C18
+[swc_info] Missing value at E18
+[swc_info] Missing value at F18
+[swc_info] Missing value at G18
+[swc_info] Missing value at H18
+[swc_info] Missing value at J18
+[swc_info] Missing value at K18
+[swc_info] Missing value at L18
+[swc_info] Missing value at N18
+[swc_info] Missing value at O18
+[swc_info] Missing value at A19
+[swc_info] Missing value at B19
+[swc_info] Missing value at C19
+[swc_info] Missing value at E19
+[swc_info] Missing value at F19
+[swc_info] Missing value at G19
+[swc_info] Missing value at H19
+[swc_info] Missing value at J19
+[swc_info] Missing value at K19
+[swc_info] Missing value at L19
+[swc_info] Missing value at N19
+[swc_info] Missing value at O19
+[swc_info] Missing value at A20
+[swc_info] Missing value at B20
+[swc_info] Missing value at C20
+[swc_info] Missing value at E20
+[swc_info] Missing value at F20
+[swc_info] Missing value at G20
+[swc_info] Missing value at H20
+[swc_info] Missing value at J20
+[swc_info] Missing value at K20
+[swc_info] Missing value at L20
+[swc_info] Missing value at N20
+[swc_info] Missing value at O20
+[swc_info] Missing value at A21
+[swc_info] Missing value at B21
+[swc_info] Missing value at C21
+[swc_info] Missing value at E21
+[swc_info] Missing value at F21
+[swc_info] Missing value at G21
+[swc_info] Missing value at H21
+[swc_info] Missing value at J21
+[swc_info] Missing value at K21
+[swc_info] Missing value at L21
+[swc_info] Missing value at N21
+[swc_info] Missing value at O21
+[swc_info] Missing value at A22
+[swc_info] Missing value at B22
+[swc_info] Missing value at C22
+[swc_info] Missing value at E22
+[swc_info] Missing value at F22
+[swc_info] Missing value at G22
+[swc_info] Missing value at H22
+[swc_info] Missing value at J22
+[swc_info] Missing value at K22
+[swc_info] Missing value at L22
+[swc_info] Missing value at N22
+[swc_info] Missing value at O22
+[swc_info] Missing value at A23
+[swc_info] Missing value at B23
+[swc_info] Missing value at C23
+[swc_info] Missing value at E23
+[swc_info] Missing value at F23
+[swc_info] Missing value at G23
+[swc_info] Missing value at H23
+[swc_info] Missing value at J23
+[swc_info] Missing value at K23
+[swc_info] Missing value at L23
+[swc_info] Missing value at N23
+[swc_info] Missing value at O23
+[swc_info] Missing value at A24
+[swc_info] Missing value at B24
+[swc_info] Missing value at C24
+[swc_info] Missing value at E24
+[swc_info] Missing value at F24
+[swc_info] Missing value at G24
+[swc_info] Missing value at H24
+[swc_info] Missing value at J24
+[swc_info] Missing value at K24
+[swc_info] Missing value at L24
+[swc_info] Missing value at N24
+[swc_info] Missing value at O24
+[swc_info] Missing value at A25
+[swc_info] Missing value at B25
+[swc_info] Missing value at C25
+[swc_info] Missing value at E25
+[swc_info] Missing value at F25
+[swc_info] Missing value at G25
+[swc_info] Missing value at H25
+[swc_info] Missing value at J25
+[swc_info] Missing value at K25
+[swc_info] Missing value at L25
+[swc_info] Missing value at N25
+[swc_info] Missing value at O25
+[swc_info] Missing value at A26
+[swc_info] Missing value at B26
+[swc_info] Missing value at C26
+[swc_info] Missing value at E26
+[swc_info] Missing value at F26
+[swc_info] Missing value at G26
+[swc_info] Missing value at H26
+[swc_info] Missing value at J26
+[swc_info] Missing value at K26
+[swc_info] Missing value at L26
+[swc_info] Missing value at N26
+[swc_info] Missing value at O26
+[swc_info] Missing value at A27
+[swc_info] Missing value at B27
+[swc_info] Missing value at C27
+[swc_info] Missing value at E27
+[swc_info] Missing value at F27
+[swc_info] Missing value at G27
+[swc_info] Missing value at H27
+[swc_info] Missing value at J27
+[swc_info] Missing value at K27
+[swc_info] Missing value at L27
+[swc_info] Missing value at N27
+[swc_info] Missing value at O27
+[adt_primitive] Missing value at A6
+[adt_primitive] Missing value at A7
+[adt_primitive] Missing value at A8
+[adt_primitive] Missing value at A9
+[adt_primitive] Missing value at A10
+[adt_primitive] Missing value at A11
+[adt_primitive] Missing value at A12
+[adt_primitive] Missing value at A13
+[swc_info] Invalid value at M4 for event type 'TimingEvent'
+[ports] Duplicate value at C7: CD_CrshSt_R
+[ports] Duplicate value at C8: CD_CrshSt_R
+[ports] Duplicate value at C13: CD_CrshSt_R
+[ib_data] Invalid reference at D2: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D3: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D4: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D5: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D6: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D7: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D8: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D9: uint16 (not in adt_primitive.B)
+[ports] Invalid reference at H2: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H3: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H4: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H5: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H6: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H7: ADTS_CHAdeMOStat (not in adt_primitive.B)
+[ports] Invalid reference at H8: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H9: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H10: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H11: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H12: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H13: ADTS_CHAdeMOStat (not in adt_primitive.B)
+[ports] Invalid reference at H14: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H15: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H16: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H17: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H18: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H19: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H20: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H21: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H22: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H23: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H24: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H25: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H26: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H27: ADTS_CrshSt (not in adt_primitive.B)
+
+[Info ERRORS]
+[swc_info] Merged cell B3 is expected to be empty
+[swc_info] Merged cell C3 is expected to be empty
+[swc_info] Merged cell D3 is expected to be empty
+[swc_info] Merged cell E3 is expected to be empty
+[swc_info] Merged cell F3 is expected to be empty
+[swc_info] Merged cell G3 is expected to be empty
+[swc_info] Merged cell B4 is expected to be empty
+[swc_info] Merged cell C4 is expected to be empty
+[swc_info] Merged cell D4 is expected to be empty
+[swc_info] Merged cell E4 is expected to be empty
+[swc_info] Merged cell F4 is expected to be empty
+[swc_info] Merged cell G4 is expected to be empty
+[swc_info] Merged cell B5 is expected to be empty
+[swc_info] Merged cell C5 is expected to be empty
+[swc_info] Merged cell D5 is expected to be empty
+[swc_info] Merged cell E5 is expected to be empty
+[swc_info] Merged cell F5 is expected to be empty
+[swc_info] Merged cell G5 is expected to be empty
+[ports] Merged cell B3 is expected to be empty
+[ports] Merged cell C3 is expected to be empty
+[ports] Merged cell D3 is expected to be empty
+[ports] Merged cell E3 is expected to be empty
+[ports] Merged cell B4 is expected to be empty
+[ports] Merged cell C4 is expected to be empty
+[ports] Merged cell D4 is expected to be empty
+[ports] Merged cell E4 is expected to be empty
+[ports] Merged cell B5 is expected to be empty
+[ports] Merged cell C5 is expected to be empty
+[ports] Merged cell D5 is expected to be empty
+[ports] Merged cell E5 is expected to be empty
+[ports] Merged cell B6 is expected to be empty
+[ports] Merged cell C6 is expected to be empty
+[ports] Merged cell D6 is expected to be empty
+[ports] Merged cell E6 is expected to be empty
+[ports] Merged cell B9 is expected to be empty
+[ports] Merged cell C9 is expected to be empty
+[ports] Merged cell D9 is expected to be empty
+[ports] Merged cell E9 is expected to be empty
+[ports] Merged cell B10 is expected to be empty
+[ports] Merged cell C10 is expected to be empty
+[ports] Merged cell D10 is expected to be empty
+[ports] Merged cell E10 is expected to be empty
+[ports] Merged cell B11 is expected to be empty
+[ports] Merged cell C11 is expected to be empty
+[ports] Merged cell D11 is expected to be empty
+[ports] Merged cell E11 is expected to be empty
+[ports] Merged cell B12 is expected to be empty
+[ports] Merged cell C12 is expected to be empty
+[ports] Merged cell D12 is expected to be empty
+[ports] Merged cell E12 is expected to be empty
+[ports] Merged cell B15 is expected to be empty
+[ports] Merged cell C15 is expected to be empty
+[ports] Merged cell D15 is expected to be empty
+[ports] Merged cell E15 is expected to be empty
+[ports] Merged cell F15 is expected to be empty
+[ports] Merged cell B16 is expected to be empty
+[ports] Merged cell C16 is expected to be empty
+[ports] Merged cell D16 is expected to be empty
+[ports] Merged cell E16 is expected to be empty
+[ports] Merged cell F16 is expected to be empty
+[ports] Merged cell B17 is expected to be empty
+[ports] Merged cell C17 is expected to be empty
+[ports] Merged cell D17 is expected to be empty
+[ports] Merged cell E17 is expected to be empty
+[ports] Merged cell F17 is expected to be empty
+[ports] Merged cell B18 is expected to be empty
+[ports] Merged cell C18 is expected to be empty
+[ports] Merged cell D18 is expected to be empty
+[ports] Merged cell E18 is expected to be empty
+[ports] Merged cell F18 is expected to be empty
+[ports] Merged cell B20 is expected to be empty
+[ports] Merged cell C20 is expected to be empty
+[ports] Merged cell D20 is expected to be empty
+[ports] Merged cell E20 is expected to be empty
+[ports] Merged cell F20 is expected to be empty
+[ports] Merged cell B21 is expected to be empty
+[ports] Merged cell C21 is expected to be empty
+[ports] Merged cell D21 is expected to be empty
+[ports] Merged cell E21 is expected to be empty
+[ports] Merged cell B22 is expected to be empty
+[ports] Merged cell C22 is expected to be empty
+[ports] Merged cell D22 is expected to be empty
+[ports] Merged cell E22 is expected to be empty
+[ports] Merged cell F22 is expected to be empty
+[ports] Merged cell B23 is expected to be empty
+[ports] Merged cell C23 is expected to be empty
+[ports] Merged cell D23 is expected to be empty
+[ports] Merged cell E23 is expected to be empty
+[ports] Merged cell F23 is expected to be empty
+[ports] Merged cell B25 is expected to be empty
+[ports] Merged cell C25 is expected to be empty
+[ports] Merged cell D25 is expected to be empty
+[ports] Merged cell E25 is expected to be empty
+[ports] Merged cell F25 is expected to be empty
+[ports] Merged cell B26 is expected to be empty
+[ports] Merged cell C26 is expected to be empty
+[ports] Merged cell D26 is expected to be empty
+[ports] Merged cell E26 is expected to be empty
+[ports] Merged cell B27 is expected to be empty
+[ports] Merged cell C27 is expected to be empty
+[ports] Merged cell D27 is expected to be empty
+[ports] Merged cell E27 is expected to be empty
+[ports] Merged cell F27 is expected to be empty
+[adt_primitive] Merged cell A5 is expected to be empty
+[adt_primitive] Merged cell B5 is expected to be empty
+[adt_primitive] Merged cell C5 is expected to be empty
+[adt_primitive] Merged cell D5 is expected to be empty
+[adt_primitive] Merged cell E5 is expected to be empty
+[adt_primitive] Merged cell H5 is expected to be empty
+[adt_primitive] Merged cell I5 is expected to be empty
+[adt_primitive] Merged cell J5 is expected to be empty
+[adt_primitive] Merged cell K5 is expected to be empty
+[adt_primitive] Merged cell L5 is expected to be empty
+[adt_primitive] Merged cell M5 is expected to be empty
+[adt_primitive] Merged cell B7 is expected to be empty
+[adt_primitive] Merged cell C7 is expected to be empty
+[adt_primitive] Merged cell D7 is expected to be empty
+[adt_primitive] Merged cell E7 is expected to be empty
+[adt_primitive] Merged cell H7 is expected to be empty
+[adt_primitive] Merged cell I7 is expected to be empty
+[adt_primitive] Merged cell J7 is expected to be empty
+[adt_primitive] Merged cell K7 is expected to be empty
+[adt_primitive] Merged cell L7 is expected to be empty
+[adt_primitive] Merged cell M7 is expected to be empty
+[adt_primitive] Merged cell B8 is expected to be empty
+[adt_primitive] Merged cell C8 is expected to be empty
+[adt_primitive] Merged cell D8 is expected to be empty
+[adt_primitive] Merged cell E8 is expected to be empty
+[adt_primitive] Merged cell H8 is expected to be empty
+[adt_primitive] Merged cell I8 is expected to be empty
+[adt_primitive] Merged cell J8 is expected to be empty
+[adt_primitive] Merged cell K8 is expected to be empty
+[adt_primitive] Merged cell L8 is expected to be empty
+[adt_primitive] Merged cell M8 is expected to be empty
+[adt_primitive] Merged cell B9 is expected to be empty
+[adt_primitive] Merged cell C9 is expected to be empty
+[adt_primitive] Merged cell D9 is expected to be empty
+[adt_primitive] Merged cell E9 is expected to be empty
+[adt_primitive] Merged cell H9 is expected to be empty
+[adt_primitive] Merged cell I9 is expected to be empty
+[adt_primitive] Merged cell J9 is expected to be empty
+[adt_primitive] Merged cell K9 is expected to be empty
+[adt_primitive] Merged cell L9 is expected to be empty
+[adt_primitive] Merged cell M9 is expected to be empty
+[adt_primitive] Merged cell B10 is expected to be empty
+[adt_primitive] Merged cell C10 is expected to be empty
+[adt_primitive] Merged cell D10 is expected to be empty
+[adt_primitive] Merged cell E10 is expected to be empty
+[adt_primitive] Merged cell H10 is expected to be empty
+[adt_primitive] Merged cell I10 is expected to be empty
+[adt_primitive] Merged cell J10 is expected to be empty
+[adt_primitive] Merged cell K10 is expected to be empty
+[adt_primitive] Merged cell L10 is expected to be empty
+[adt_primitive] Merged cell M10 is expected to be empty
+[adt_primitive] Merged cell B11 is expected to be empty
+[adt_primitive] Merged cell C11 is expected to be empty
+[adt_primitive] Merged cell D11 is expected to be empty
+[adt_primitive] Merged cell E11 is expected to be empty
+[adt_primitive] Merged cell H11 is expected to be empty
+[adt_primitive] Merged cell I11 is expected to be empty
+[adt_primitive] Merged cell J11 is expected to be empty
+[adt_primitive] Merged cell K11 is expected to be empty
+[adt_primitive] Merged cell L11 is expected to be empty
+[adt_primitive] Merged cell M11 is expected to be empty
+[adt_primitive] Merged cell B12 is expected to be empty
+[adt_primitive] Merged cell C12 is expected to be empty
+[adt_primitive] Merged cell D12 is expected to be empty
+[adt_primitive] Merged cell E12 is expected to be empty
+[adt_primitive] Merged cell H12 is expected to be empty
+[adt_primitive] Merged cell I12 is expected to be empty
+[adt_primitive] Merged cell J12 is expected to be empty
+[adt_primitive] Merged cell K12 is expected to be empty
+[adt_primitive] Merged cell L12 is expected to be empty
+[adt_primitive] Merged cell M12 is expected to be empty
+[adt_primitive] Merged cell B13 is expected to be empty
+[adt_primitive] Merged cell C13 is expected to be empty
+[adt_primitive] Merged cell D13 is expected to be empty
+[adt_primitive] Merged cell E13 is expected to be empty
+[adt_primitive] Merged cell H13 is expected to be empty
+[adt_primitive] Merged cell I13 is expected to be empty
+[adt_primitive] Merged cell J13 is expected to be empty
+[adt_primitive] Merged cell K13 is expected to be empty
+[adt_primitive] Merged cell L13 is expected to be empty
+[adt_primitive] Merged cell M13 is expected to be empty
+[idt] Merged cell A3 is expected to be empty
+[idt] Merged cell B3 is expected to be empty
+[idt] Merged cell C3 is expected to be empty
+[idt] Merged cell A4 is expected to be empty
+[idt] Merged cell B4 is expected to be empty
+[idt] Merged cell C4 is expected to be empty
+[idt] Merged cell A5 is expected to be empty
+[idt] Merged cell B5 is expected to be empty
+[idt] Merged cell C5 is expected to be empty
+[adt_primitive] Merged cell E5 is expected to be empty
+[adt_primitive] Merged cell E7 is expected to be empty
+[adt_primitive] Merged cell E8 is expected to be empty
+[adt_primitive] Merged cell E9 is expected to be empty
+[adt_primitive] Merged cell E10 is expected to be empty
+[adt_primitive] Merged cell E11 is expected to be empty
+[adt_primitive] Merged cell E12 is expected to be empty
+[adt_primitive] Merged cell E13 is expected to be empty
+[idt] Merged cell B3 is expected to be empty
+[idt] Merged cell B4 is expected to be empty
+[idt] Merged cell B5 is expected to be empty
+[adt_composite] Numeric value in naming column at D6: 15
+[adt_composite] Numeric value in naming column at D7: 15
+[idt] Numeric value in naming column at D6: 15
+[idt] Numeric value in naming column at D7: 15
+[adt_composite] Duplicate numerical value at D7: 15
+[idt] Duplicate numerical value at D7: 15
+
+=== Validation Attempt 1 at 2025-02-25 13:50:43 ===
+
+[Critical ERRORS]
+[swc_info] Missing value at N2
+[swc_info] Missing value at O2
+[swc_info] Missing value at A3
+[swc_info] Missing value at N3
+[swc_info] Missing value at O3
+[swc_info] Missing value at N4
+[swc_info] Missing value at O4
+[swc_info] Missing value at N5
+[swc_info] Missing value at O5
+[swc_info] Missing value at A6
+[swc_info] Missing value at B6
+[swc_info] Missing value at C6
+[swc_info] Missing value at E6
+[swc_info] Missing value at F6
+[swc_info] Missing value at G6
+[swc_info] Missing value at H6
+[swc_info] Missing value at J6
+[swc_info] Missing value at K6
+[swc_info] Missing value at L6
+[swc_info] Missing value at N6
+[swc_info] Missing value at O6
+[swc_info] Missing value at A7
+[swc_info] Missing value at B7
+[swc_info] Missing value at C7
+[swc_info] Missing value at E7
+[swc_info] Missing value at F7
+[swc_info] Missing value at G7
+[swc_info] Missing value at H7
+[swc_info] Missing value at J7
+[swc_info] Missing value at K7
+[swc_info] Missing value at L7
+[swc_info] Missing value at N7
+[swc_info] Missing value at O7
+[swc_info] Missing value at A8
+[swc_info] Missing value at B8
+[swc_info] Missing value at C8
+[swc_info] Missing value at E8
+[swc_info] Missing value at F8
+[swc_info] Missing value at G8
+[swc_info] Missing value at H8
+[swc_info] Missing value at J8
+[swc_info] Missing value at K8
+[swc_info] Missing value at L8
+[swc_info] Missing value at N8
+[swc_info] Missing value at O8
+[swc_info] Missing value at A9
+[swc_info] Missing value at B9
+[swc_info] Missing value at C9
+[swc_info] Missing value at E9
+[swc_info] Missing value at F9
+[swc_info] Missing value at G9
+[swc_info] Missing value at H9
+[swc_info] Missing value at J9
+[swc_info] Missing value at K9
+[swc_info] Missing value at L9
+[swc_info] Missing value at N9
+[swc_info] Missing value at O9
+[swc_info] Missing value at A10
+[swc_info] Missing value at B10
+[swc_info] Missing value at C10
+[swc_info] Missing value at E10
+[swc_info] Missing value at F10
+[swc_info] Missing value at G10
+[swc_info] Missing value at H10
+[swc_info] Missing value at J10
+[swc_info] Missing value at K10
+[swc_info] Missing value at L10
+[swc_info] Missing value at N10
+[swc_info] Missing value at O10
+[swc_info] Missing value at A11
+[swc_info] Missing value at B11
+[swc_info] Missing value at C11
+[swc_info] Missing value at E11
+[swc_info] Missing value at F11
+[swc_info] Missing value at G11
+[swc_info] Missing value at H11
+[swc_info] Missing value at J11
+[swc_info] Missing value at K11
+[swc_info] Missing value at L11
+[swc_info] Missing value at N11
+[swc_info] Missing value at O11
+[swc_info] Missing value at A12
+[swc_info] Missing value at B12
+[swc_info] Missing value at C12
+[swc_info] Missing value at E12
+[swc_info] Missing value at F12
+[swc_info] Missing value at G12
+[swc_info] Missing value at H12
+[swc_info] Missing value at J12
+[swc_info] Missing value at K12
+[swc_info] Missing value at L12
+[swc_info] Missing value at N12
+[swc_info] Missing value at O12
+[swc_info] Missing value at A13
+[swc_info] Missing value at B13
+[swc_info] Missing value at C13
+[swc_info] Missing value at E13
+[swc_info] Missing value at F13
+[swc_info] Missing value at G13
+[swc_info] Missing value at H13
+[swc_info] Missing value at J13
+[swc_info] Missing value at K13
+[swc_info] Missing value at L13
+[swc_info] Missing value at N13
+[swc_info] Missing value at O13
+[swc_info] Missing value at A14
+[swc_info] Missing value at B14
+[swc_info] Missing value at C14
+[swc_info] Missing value at E14
+[swc_info] Missing value at F14
+[swc_info] Missing value at G14
+[swc_info] Missing value at H14
+[swc_info] Missing value at J14
+[swc_info] Missing value at K14
+[swc_info] Missing value at L14
+[swc_info] Missing value at N14
+[swc_info] Missing value at O14
+[swc_info] Missing value at A15
+[swc_info] Missing value at B15
+[swc_info] Missing value at C15
+[swc_info] Missing value at E15
+[swc_info] Missing value at F15
+[swc_info] Missing value at G15
+[swc_info] Missing value at H15
+[swc_info] Missing value at J15
+[swc_info] Missing value at K15
+[swc_info] Missing value at L15
+[swc_info] Missing value at N15
+[swc_info] Missing value at O15
+[swc_info] Missing value at A16
+[swc_info] Missing value at B16
+[swc_info] Missing value at C16
+[swc_info] Missing value at E16
+[swc_info] Missing value at F16
+[swc_info] Missing value at G16
+[swc_info] Missing value at H16
+[swc_info] Missing value at J16
+[swc_info] Missing value at K16
+[swc_info] Missing value at L16
+[swc_info] Missing value at N16
+[swc_info] Missing value at O16
+[swc_info] Missing value at A17
+[swc_info] Missing value at B17
+[swc_info] Missing value at C17
+[swc_info] Missing value at E17
+[swc_info] Missing value at F17
+[swc_info] Missing value at G17
+[swc_info] Missing value at H17
+[swc_info] Missing value at J17
+[swc_info] Missing value at K17
+[swc_info] Missing value at L17
+[swc_info] Missing value at N17
+[swc_info] Missing value at O17
+[swc_info] Missing value at A18
+[swc_info] Missing value at B18
+[swc_info] Missing value at C18
+[swc_info] Missing value at E18
+[swc_info] Missing value at F18
+[swc_info] Missing value at G18
+[swc_info] Missing value at H18
+[swc_info] Missing value at J18
+[swc_info] Missing value at K18
+[swc_info] Missing value at L18
+[swc_info] Missing value at N18
+[swc_info] Missing value at O18
+[swc_info] Missing value at A19
+[swc_info] Missing value at B19
+[swc_info] Missing value at C19
+[swc_info] Missing value at E19
+[swc_info] Missing value at F19
+[swc_info] Missing value at G19
+[swc_info] Missing value at H19
+[swc_info] Missing value at J19
+[swc_info] Missing value at K19
+[swc_info] Missing value at L19
+[swc_info] Missing value at N19
+[swc_info] Missing value at O19
+[swc_info] Missing value at A20
+[swc_info] Missing value at B20
+[swc_info] Missing value at C20
+[swc_info] Missing value at E20
+[swc_info] Missing value at F20
+[swc_info] Missing value at G20
+[swc_info] Missing value at H20
+[swc_info] Missing value at J20
+[swc_info] Missing value at K20
+[swc_info] Missing value at L20
+[swc_info] Missing value at N20
+[swc_info] Missing value at O20
+[swc_info] Missing value at A21
+[swc_info] Missing value at B21
+[swc_info] Missing value at C21
+[swc_info] Missing value at E21
+[swc_info] Missing value at F21
+[swc_info] Missing value at G21
+[swc_info] Missing value at H21
+[swc_info] Missing value at J21
+[swc_info] Missing value at K21
+[swc_info] Missing value at L21
+[swc_info] Missing value at N21
+[swc_info] Missing value at O21
+[swc_info] Missing value at A22
+[swc_info] Missing value at B22
+[swc_info] Missing value at C22
+[swc_info] Missing value at E22
+[swc_info] Missing value at F22
+[swc_info] Missing value at G22
+[swc_info] Missing value at H22
+[swc_info] Missing value at J22
+[swc_info] Missing value at K22
+[swc_info] Missing value at L22
+[swc_info] Missing value at N22
+[swc_info] Missing value at O22
+[swc_info] Missing value at A23
+[swc_info] Missing value at B23
+[swc_info] Missing value at C23
+[swc_info] Missing value at E23
+[swc_info] Missing value at F23
+[swc_info] Missing value at G23
+[swc_info] Missing value at H23
+[swc_info] Missing value at J23
+[swc_info] Missing value at K23
+[swc_info] Missing value at L23
+[swc_info] Missing value at N23
+[swc_info] Missing value at O23
+[swc_info] Missing value at A24
+[swc_info] Missing value at B24
+[swc_info] Missing value at C24
+[swc_info] Missing value at E24
+[swc_info] Missing value at F24
+[swc_info] Missing value at G24
+[swc_info] Missing value at H24
+[swc_info] Missing value at J24
+[swc_info] Missing value at K24
+[swc_info] Missing value at L24
+[swc_info] Missing value at N24
+[swc_info] Missing value at O24
+[swc_info] Missing value at A25
+[swc_info] Missing value at B25
+[swc_info] Missing value at C25
+[swc_info] Missing value at E25
+[swc_info] Missing value at F25
+[swc_info] Missing value at G25
+[swc_info] Missing value at H25
+[swc_info] Missing value at J25
+[swc_info] Missing value at K25
+[swc_info] Missing value at L25
+[swc_info] Missing value at N25
+[swc_info] Missing value at O25
+[swc_info] Missing value at A26
+[swc_info] Missing value at B26
+[swc_info] Missing value at C26
+[swc_info] Missing value at E26
+[swc_info] Missing value at F26
+[swc_info] Missing value at G26
+[swc_info] Missing value at H26
+[swc_info] Missing value at J26
+[swc_info] Missing value at K26
+[swc_info] Missing value at L26
+[swc_info] Missing value at N26
+[swc_info] Missing value at O26
+[swc_info] Missing value at A27
+[swc_info] Missing value at B27
+[swc_info] Missing value at C27
+[swc_info] Missing value at E27
+[swc_info] Missing value at F27
+[swc_info] Missing value at G27
+[swc_info] Missing value at H27
+[swc_info] Missing value at J27
+[swc_info] Missing value at K27
+[swc_info] Missing value at L27
+[swc_info] Missing value at N27
+[swc_info] Missing value at O27
+[adt_primitive] Missing value at A6
+[adt_primitive] Missing value at A7
+[adt_primitive] Missing value at A8
+[adt_primitive] Missing value at A9
+[adt_primitive] Missing value at A10
+[adt_primitive] Missing value at A11
+[adt_primitive] Missing value at A12
+[adt_primitive] Missing value at A13
+[swc_info] Invalid value at M4 for event type 'TimingEvent'
+[ports] Duplicate value at C7: CD_CrshSt_R
+[ports] Duplicate value at C8: CD_CrshSt_R
+[ports] Duplicate value at C13: CD_CrshSt_R
+[ib_data] Invalid reference at D2: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D3: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D4: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D5: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D6: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D7: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D8: uint16 (not in adt_primitive.B)
+[ib_data] Invalid reference at D9: uint16 (not in adt_primitive.B)
+[ports] Invalid reference at H2: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H3: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H4: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H5: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H6: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H7: ADTS_CHAdeMOStat (not in adt_primitive.B)
+[ports] Invalid reference at H8: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H9: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H10: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H11: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H12: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H13: ADTS_CHAdeMOStat (not in adt_primitive.B)
+[ports] Invalid reference at H14: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H15: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H16: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H17: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H18: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H19: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H20: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H21: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H22: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H23: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H24: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H25: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H26: ADTS_CrshSt (not in adt_primitive.B)
+[ports] Invalid reference at H27: ADTS_CrshSt (not in adt_primitive.B)
+
+[Info ERRORS]
+[swc_info] Merged cell B3 is expected to be empty
+[swc_info] Merged cell C3 is expected to be empty
+[swc_info] Merged cell D3 is expected to be empty
+[swc_info] Merged cell E3 is expected to be empty
+[swc_info] Merged cell F3 is expected to be empty
+[swc_info] Merged cell G3 is expected to be empty
+[swc_info] Merged cell B4 is expected to be empty
+[swc_info] Merged cell C4 is expected to be empty
+[swc_info] Merged cell D4 is expected to be empty
+[swc_info] Merged cell E4 is expected to be empty
+[swc_info] Merged cell F4 is expected to be empty
+[swc_info] Merged cell G4 is expected to be empty
+[swc_info] Merged cell B5 is expected to be empty
+[swc_info] Merged cell C5 is expected to be empty
+[swc_info] Merged cell D5 is expected to be empty
+[swc_info] Merged cell E5 is expected to be empty
+[swc_info] Merged cell F5 is expected to be empty
+[swc_info] Merged cell G5 is expected to be empty
+[ports] Merged cell B3 is expected to be empty
+[ports] Merged cell C3 is expected to be empty
+[ports] Merged cell D3 is expected to be empty
+[ports] Merged cell E3 is expected to be empty
+[ports] Merged cell B4 is expected to be empty
+[ports] Merged cell C4 is expected to be empty
+[ports] Merged cell D4 is expected to be empty
+[ports] Merged cell E4 is expected to be empty
+[ports] Merged cell B5 is expected to be empty
+[ports] Merged cell C5 is expected to be empty
+[ports] Merged cell D5 is expected to be empty
+[ports] Merged cell E5 is expected to be empty
+[ports] Merged cell B6 is expected to be empty
+[ports] Merged cell C6 is expected to be empty
+[ports] Merged cell D6 is expected to be empty
+[ports] Merged cell E6 is expected to be empty
+[ports] Merged cell B9 is expected to be empty
+[ports] Merged cell C9 is expected to be empty
+[ports] Merged cell D9 is expected to be empty
+[ports] Merged cell E9 is expected to be empty
+[ports] Merged cell B10 is expected to be empty
+[ports] Merged cell C10 is expected to be empty
+[ports] Merged cell D10 is expected to be empty
+[ports] Merged cell E10 is expected to be empty
+[ports] Merged cell B11 is expected to be empty
+[ports] Merged cell C11 is expected to be empty
+[ports] Merged cell D11 is expected to be empty
+[ports] Merged cell E11 is expected to be empty
+[ports] Merged cell B12 is expected to be empty
+[ports] Merged cell C12 is expected to be empty
+[ports] Merged cell D12 is expected to be empty
+[ports] Merged cell E12 is expected to be empty
+[ports] Merged cell B15 is expected to be empty
+[ports] Merged cell C15 is expected to be empty
+[ports] Merged cell D15 is expected to be empty
+[ports] Merged cell E15 is expected to be empty
+[ports] Merged cell F15 is expected to be empty
+[ports] Merged cell B16 is expected to be empty
+[ports] Merged cell C16 is expected to be empty
+[ports] Merged cell D16 is expected to be empty
+[ports] Merged cell E16 is expected to be empty
+[ports] Merged cell F16 is expected to be empty
+[ports] Merged cell B17 is expected to be empty
+[ports] Merged cell C17 is expected to be empty
+[ports] Merged cell D17 is expected to be empty
+[ports] Merged cell E17 is expected to be empty
+[ports] Merged cell F17 is expected to be empty
+[ports] Merged cell B18 is expected to be empty
+[ports] Merged cell C18 is expected to be empty
+[ports] Merged cell D18 is expected to be empty
+[ports] Merged cell E18 is expected to be empty
+[ports] Merged cell F18 is expected to be empty
+[ports] Merged cell B20 is expected to be empty
+[ports] Merged cell C20 is expected to be empty
+[ports] Merged cell D20 is expected to be empty
+[ports] Merged cell E20 is expected to be empty
+[ports] Merged cell F20 is expected to be empty
+[ports] Merged cell B21 is expected to be empty
+[ports] Merged cell C21 is expected to be empty
+[ports] Merged cell D21 is expected to be empty
+[ports] Merged cell E21 is expected to be empty
+[ports] Merged cell B22 is expected to be empty
+[ports] Merged cell C22 is expected to be empty
+[ports] Merged cell D22 is expected to be empty
+[ports] Merged cell E22 is expected to be empty
+[ports] Merged cell F22 is expected to be empty
+[ports] Merged cell B23 is expected to be empty
+[ports] Merged cell C23 is expected to be empty
+[ports] Merged cell D23 is expected to be empty
+[ports] Merged cell E23 is expected to be empty
+[ports] Merged cell F23 is expected to be empty
+[ports] Merged cell B25 is expected to be empty
+[ports] Merged cell C25 is expected to be empty
+[ports] Merged cell D25 is expected to be empty
+[ports] Merged cell E25 is expected to be empty
+[ports] Merged cell F25 is expected to be empty
+[ports] Merged cell B26 is expected to be empty
+[ports] Merged cell C26 is expected to be empty
+[ports] Merged cell D26 is expected to be empty
+[ports] Merged cell E26 is expected to be empty
+[ports] Merged cell B27 is expected to be empty
+[ports] Merged cell C27 is expected to be empty
+[ports] Merged cell D27 is expected to be empty
+[ports] Merged cell E27 is expected to be empty
+[ports] Merged cell F27 is expected to be empty
+[adt_primitive] Merged cell A5 is expected to be empty
+[adt_primitive] Merged cell B5 is expected to be empty
+[adt_primitive] Merged cell C5 is expected to be empty
+[adt_primitive] Merged cell D5 is expected to be empty
+[adt_primitive] Merged cell E5 is expected to be empty
+[adt_primitive] Merged cell H5 is expected to be empty
+[adt_primitive] Merged cell I5 is expected to be empty
+[adt_primitive] Merged cell J5 is expected to be empty
+[adt_primitive] Merged cell K5 is expected to be empty
+[adt_primitive] Merged cell L5 is expected to be empty
+[adt_primitive] Merged cell M5 is expected to be empty
+[adt_primitive] Merged cell B7 is expected to be empty
+[adt_primitive] Merged cell C7 is expected to be empty
+[adt_primitive] Merged cell D7 is expected to be empty
+[adt_primitive] Merged cell E7 is expected to be empty
+[adt_primitive] Merged cell H7 is expected to be empty
+[adt_primitive] Merged cell I7 is expected to be empty
+[adt_primitive] Merged cell J7 is expected to be empty
+[adt_primitive] Merged cell K7 is expected to be empty
+[adt_primitive] Merged cell L7 is expected to be empty
+[adt_primitive] Merged cell M7 is expected to be empty
+[adt_primitive] Merged cell B8 is expected to be empty
+[adt_primitive] Merged cell C8 is expected to be empty
+[adt_primitive] Merged cell D8 is expected to be empty
+[adt_primitive] Merged cell E8 is expected to be empty
+[adt_primitive] Merged cell H8 is expected to be empty
+[adt_primitive] Merged cell I8 is expected to be empty
+[adt_primitive] Merged cell J8 is expected to be empty
+[adt_primitive] Merged cell K8 is expected to be empty
+[adt_primitive] Merged cell L8 is expected to be empty
+[adt_primitive] Merged cell M8 is expected to be empty
+[adt_primitive] Merged cell B9 is expected to be empty
+[adt_primitive] Merged cell C9 is expected to be empty
+[adt_primitive] Merged cell D9 is expected to be empty
+[adt_primitive] Merged cell E9 is expected to be empty
+[adt_primitive] Merged cell H9 is expected to be empty
+[adt_primitive] Merged cell I9 is expected to be empty
+[adt_primitive] Merged cell J9 is expected to be empty
+[adt_primitive] Merged cell K9 is expected to be empty
+[adt_primitive] Merged cell L9 is expected to be empty
+[adt_primitive] Merged cell M9 is expected to be empty
+[adt_primitive] Merged cell B10 is expected to be empty
+[adt_primitive] Merged cell C10 is expected to be empty
+[adt_primitive] Merged cell D10 is expected to be empty
+[adt_primitive] Merged cell E10 is expected to be empty
+[adt_primitive] Merged cell H10 is expected to be empty
+[adt_primitive] Merged cell I10 is expected to be empty
+[adt_primitive] Merged cell J10 is expected to be empty
+[adt_primitive] Merged cell K10 is expected to be empty
+[adt_primitive] Merged cell L10 is expected to be empty
+[adt_primitive] Merged cell M10 is expected to be empty
+[adt_primitive] Merged cell B11 is expected to be empty
+[adt_primitive] Merged cell C11 is expected to be empty
+[adt_primitive] Merged cell D11 is expected to be empty
+[adt_primitive] Merged cell E11 is expected to be empty
+[adt_primitive] Merged cell H11 is expected to be empty
+[adt_primitive] Merged cell I11 is expected to be empty
+[adt_primitive] Merged cell J11 is expected to be empty
+[adt_primitive] Merged cell K11 is expected to be empty
+[adt_primitive] Merged cell L11 is expected to be empty
+[adt_primitive] Merged cell M11 is expected to be empty
+[adt_primitive] Merged cell B12 is expected to be empty
+[adt_primitive] Merged cell C12 is expected to be empty
+[adt_primitive] Merged cell D12 is expected to be empty
+[adt_primitive] Merged cell E12 is expected to be empty
+[adt_primitive] Merged cell H12 is expected to be empty
+[adt_primitive] Merged cell I12 is expected to be empty
+[adt_primitive] Merged cell J12 is expected to be empty
+[adt_primitive] Merged cell K12 is expected to be empty
+[adt_primitive] Merged cell L12 is expected to be empty
+[adt_primitive] Merged cell M12 is expected to be empty
+[adt_primitive] Merged cell B13 is expected to be empty
+[adt_primitive] Merged cell C13 is expected to be empty
+[adt_primitive] Merged cell D13 is expected to be empty
+[adt_primitive] Merged cell E13 is expected to be empty
+[adt_primitive] Merged cell H13 is expected to be empty
+[adt_primitive] Merged cell I13 is expected to be empty
+[adt_primitive] Merged cell J13 is expected to be empty
+[adt_primitive] Merged cell K13 is expected to be empty
+[adt_primitive] Merged cell L13 is expected to be empty
+[adt_primitive] Merged cell M13 is expected to be empty
+[idt] Merged cell A3 is expected to be empty
+[idt] Merged cell B3 is expected to be empty
+[idt] Merged cell C3 is expected to be empty
+[idt] Merged cell A4 is expected to be empty
+[idt] Merged cell B4 is expected to be empty
+[idt] Merged cell C4 is expected to be empty
+[idt] Merged cell A5 is expected to be empty
+[idt] Merged cell B5 is expected to be empty
+[idt] Merged cell C5 is expected to be empty
+[adt_primitive] Merged cell E5 is expected to be empty
+[adt_primitive] Merged cell E7 is expected to be empty
+[adt_primitive] Merged cell E8 is expected to be empty
+[adt_primitive] Merged cell E9 is expected to be empty
+[adt_primitive] Merged cell E10 is expected to be empty
+[adt_primitive] Merged cell E11 is expected to be empty
+[adt_primitive] Merged cell E12 is expected to be empty
+[adt_primitive] Merged cell E13 is expected to be empty
+[idt] Merged cell B3 is expected to be empty
+[idt] Merged cell B4 is expected to be empty
+[idt] Merged cell B5 is expected to be empty
+[adt_composite] Numeric value in naming column at D6: 15
+[adt_composite] Numeric value in naming column at D7: 15
+[idt] Numeric value in naming column at D6: 15
+[idt] Numeric value in naming column at D7: 15
+[adt_composite] Duplicate numerical value at D7: 15
+[idt] Duplicate numerical value at D7: 15
+
+=== Validation Attempt 1 at 2025-02-25 13:53:03 ===
+
+[Info ERRORS]
+[swc_info] Merged cell B3 is expected to be empty
+[swc_info] Merged cell C3 is expected to be empty
+[swc_info] Merged cell D3 is expected to be empty
+[swc_info] Merged cell E3 is expected to be empty
+[swc_info] Merged cell F3 is expected to be empty
+[swc_info] Merged cell G3 is expected to be empty
+[swc_info] Merged cell B4 is expected to be empty
+[swc_info] Merged cell C4 is expected to be empty
+[swc_info] Merged cell D4 is expected to be empty
+[swc_info] Merged cell E4 is expected to be empty
+[swc_info] Merged cell F4 is expected to be empty
+[swc_info] Merged cell G4 is expected to be empty
+[ports] Merged cell A3 is expected to be empty
+[ports] Merged cell B3 is expected to be empty
+[ports] Merged cell C3 is expected to be empty
+[ports] Merged cell D3 is expected to be empty
+[ports] Merged cell E3 is expected to be empty
+[ports] Merged cell A4 is expected to be empty
+[ports] Merged cell B4 is expected to be empty
+[ports] Merged cell C4 is expected to be empty
+[ports] Merged cell D4 is expected to be empty
+[ports] Merged cell E4 is expected to be empty
+[ports] Merged cell A5 is expected to be empty
+[ports] Merged cell B5 is expected to be empty
+[ports] Merged cell C5 is expected to be empty
+[ports] Merged cell D5 is expected to be empty
+[ports] Merged cell E5 is expected to be empty
+[ports] Merged cell A6 is expected to be empty
+[ports] Merged cell B6 is expected to be empty
+[ports] Merged cell C6 is expected to be empty
+[ports] Merged cell D6 is expected to be empty
+[ports] Merged cell E6 is expected to be empty
+[ports] Merged cell A9 is expected to be empty
+[ports] Merged cell B9 is expected to be empty
+[ports] Merged cell C9 is expected to be empty
+[ports] Merged cell D9 is expected to be empty
+[ports] Merged cell E9 is expected to be empty
+[ports] Merged cell A10 is expected to be empty
+[ports] Merged cell B10 is expected to be empty
+[ports] Merged cell C10 is expected to be empty
+[ports] Merged cell D10 is expected to be empty
+[ports] Merged cell E10 is expected to be empty
+[ports] Merged cell A11 is expected to be empty
+[ports] Merged cell B11 is expected to be empty
+[ports] Merged cell C11 is expected to be empty
+[ports] Merged cell D11 is expected to be empty
+[ports] Merged cell E11 is expected to be empty
+[ports] Merged cell A12 is expected to be empty
+[ports] Merged cell B12 is expected to be empty
+[ports] Merged cell C12 is expected to be empty
+[ports] Merged cell D12 is expected to be empty
+[ports] Merged cell E12 is expected to be empty
+[ports] Merged cell A15 is expected to be empty
+[ports] Merged cell B15 is expected to be empty
+[ports] Merged cell C15 is expected to be empty
+[ports] Merged cell D15 is expected to be empty
+[ports] Merged cell E15 is expected to be empty
+[ports] Merged cell F15 is expected to be empty
+[ports] Merged cell A16 is expected to be empty
+[ports] Merged cell B16 is expected to be empty
+[ports] Merged cell C16 is expected to be empty
+[ports] Merged cell D16 is expected to be empty
+[ports] Merged cell E16 is expected to be empty
+[ports] Merged cell F16 is expected to be empty
+[ports] Merged cell A17 is expected to be empty
+[ports] Merged cell B17 is expected to be empty
+[ports] Merged cell C17 is expected to be empty
+[ports] Merged cell D17 is expected to be empty
+[ports] Merged cell E17 is expected to be empty
+[ports] Merged cell F17 is expected to be empty
+[ports] Merged cell A18 is expected to be empty
+[ports] Merged cell B18 is expected to be empty
+[ports] Merged cell C18 is expected to be empty
+[ports] Merged cell D18 is expected to be empty
+[ports] Merged cell E18 is expected to be empty
+[ports] Merged cell F18 is expected to be empty
+[ports] Merged cell A20 is expected to be empty
+[ports] Merged cell B20 is expected to be empty
+[ports] Merged cell C20 is expected to be empty
+[ports] Merged cell D20 is expected to be empty
+[ports] Merged cell E20 is expected to be empty
+[ports] Merged cell F20 is expected to be empty
+[ports] Merged cell A21 is expected to be empty
+[ports] Merged cell B21 is expected to be empty
+[ports] Merged cell C21 is expected to be empty
+[ports] Merged cell D21 is expected to be empty
+[ports] Merged cell E21 is expected to be empty
+[ports] Merged cell A22 is expected to be empty
+[ports] Merged cell B22 is expected to be empty
+[ports] Merged cell C22 is expected to be empty
+[ports] Merged cell D22 is expected to be empty
+[ports] Merged cell E22 is expected to be empty
+[ports] Merged cell F22 is expected to be empty
+[ports] Merged cell A23 is expected to be empty
+[ports] Merged cell B23 is expected to be empty
+[ports] Merged cell C23 is expected to be empty
+[ports] Merged cell D23 is expected to be empty
+[ports] Merged cell E23 is expected to be empty
+[ports] Merged cell F23 is expected to be empty
+[ports] Merged cell A25 is expected to be empty
+[ports] Merged cell B25 is expected to be empty
+[ports] Merged cell C25 is expected to be empty
+[ports] Merged cell D25 is expected to be empty
+[ports] Merged cell E25 is expected to be empty
+[ports] Merged cell F25 is expected to be empty
+[ports] Merged cell A26 is expected to be empty
+[ports] Merged cell B26 is expected to be empty
+[ports] Merged cell C26 is expected to be empty
+[ports] Merged cell D26 is expected to be empty
+[ports] Merged cell E26 is expected to be empty
+[ports] Merged cell A27 is expected to be empty
+[ports] Merged cell B27 is expected to be empty
+[ports] Merged cell C27 is expected to be empty
+[ports] Merged cell D27 is expected to be empty
+[ports] Merged cell E27 is expected to be empty
+[ports] Merged cell F27 is expected to be empty
+[adt_primitive] Merged cell A5 is expected to be empty
+[adt_primitive] Merged cell B5 is expected to be empty
+[adt_primitive] Merged cell C5 is expected to be empty
+[adt_primitive] Merged cell D5 is expected to be empty
+[adt_primitive] Merged cell E5 is expected to be empty
+[adt_primitive] Merged cell H5 is expected to be empty
+[adt_primitive] Merged cell I5 is expected to be empty
+[adt_primitive] Merged cell J5 is expected to be empty
+[adt_primitive] Merged cell K5 is expected to be empty
+[adt_primitive] Merged cell L5 is expected to be empty
+[adt_primitive] Merged cell M5 is expected to be empty
+[adt_primitive] Merged cell A7 is expected to be empty
+[adt_primitive] Merged cell B7 is expected to be empty
+[adt_primitive] Merged cell C7 is expected to be empty
+[adt_primitive] Merged cell D7 is expected to be empty
+[adt_primitive] Merged cell E7 is expected to be empty
+[adt_primitive] Merged cell H7 is expected to be empty
+[adt_primitive] Merged cell I7 is expected to be empty
+[adt_primitive] Merged cell J7 is expected to be empty
+[adt_primitive] Merged cell K7 is expected to be empty
+[adt_primitive] Merged cell L7 is expected to be empty
+[adt_primitive] Merged cell M7 is expected to be empty
+[adt_primitive] Merged cell A8 is expected to be empty
+[adt_primitive] Merged cell B8 is expected to be empty
+[adt_primitive] Merged cell C8 is expected to be empty
+[adt_primitive] Merged cell D8 is expected to be empty
+[adt_primitive] Merged cell E8 is expected to be empty
+[adt_primitive] Merged cell H8 is expected to be empty
+[adt_primitive] Merged cell I8 is expected to be empty
+[adt_primitive] Merged cell J8 is expected to be empty
+[adt_primitive] Merged cell K8 is expected to be empty
+[adt_primitive] Merged cell L8 is expected to be empty
+[adt_primitive] Merged cell M8 is expected to be empty
+[adt_primitive] Merged cell A9 is expected to be empty
+[adt_primitive] Merged cell B9 is expected to be empty
+[adt_primitive] Merged cell C9 is expected to be empty
+[adt_primitive] Merged cell D9 is expected to be empty
+[adt_primitive] Merged cell E9 is expected to be empty
+[adt_primitive] Merged cell H9 is expected to be empty
+[adt_primitive] Merged cell I9 is expected to be empty
+[adt_primitive] Merged cell J9 is expected to be empty
+[adt_primitive] Merged cell K9 is expected to be empty
+[adt_primitive] Merged cell L9 is expected to be empty
+[adt_primitive] Merged cell M9 is expected to be empty
+[adt_primitive] Merged cell A10 is expected to be empty
+[adt_primitive] Merged cell B10 is expected to be empty
+[adt_primitive] Merged cell C10 is expected to be empty
+[adt_primitive] Merged cell D10 is expected to be empty
+[adt_primitive] Merged cell E10 is expected to be empty
+[adt_primitive] Merged cell H10 is expected to be empty
+[adt_primitive] Merged cell I10 is expected to be empty
+[adt_primitive] Merged cell J10 is expected to be empty
+[adt_primitive] Merged cell K10 is expected to be empty
+[adt_primitive] Merged cell L10 is expected to be empty
+[adt_primitive] Merged cell M10 is expected to be empty
+[adt_primitive] Merged cell A11 is expected to be empty
+[adt_primitive] Merged cell B11 is expected to be empty
+[adt_primitive] Merged cell C11 is expected to be empty
+[adt_primitive] Merged cell D11 is expected to be empty
+[adt_primitive] Merged cell E11 is expected to be empty
+[adt_primitive] Merged cell H11 is expected to be empty
+[adt_primitive] Merged cell I11 is expected to be empty
+[adt_primitive] Merged cell J11 is expected to be empty
+[adt_primitive] Merged cell K11 is expected to be empty
+[adt_primitive] Merged cell L11 is expected to be empty
+[adt_primitive] Merged cell M11 is expected to be empty
+[adt_primitive] Merged cell A12 is expected to be empty
+[adt_primitive] Merged cell B12 is expected to be empty
+[adt_primitive] Merged cell C12 is expected to be empty
+[adt_primitive] Merged cell D12 is expected to be empty
+[adt_primitive] Merged cell E12 is expected to be empty
+[adt_primitive] Merged cell H12 is expected to be empty
+[adt_primitive] Merged cell I12 is expected to be empty
+[adt_primitive] Merged cell J12 is expected to be empty
+[adt_primitive] Merged cell K12 is expected to be empty
+[adt_primitive] Merged cell L12 is expected to be empty
+[adt_primitive] Merged cell M12 is expected to be empty
+[adt_primitive] Merged cell A13 is expected to be empty
+[adt_primitive] Merged cell B13 is expected to be empty
+[adt_primitive] Merged cell C13 is expected to be empty
+[adt_primitive] Merged cell D13 is expected to be empty
+[adt_primitive] Merged cell E13 is expected to be empty
+[adt_primitive] Merged cell H13 is expected to be empty
+[adt_primitive] Merged cell I13 is expected to be empty
+[adt_primitive] Merged cell J13 is expected to be empty
+[adt_primitive] Merged cell K13 is expected to be empty
+[adt_primitive] Merged cell L13 is expected to be empty
+[adt_primitive] Merged cell M13 is expected to be empty
+[idt] Merged cell A3 is expected to be empty
+[idt] Merged cell B3 is expected to be empty
+[idt] Merged cell C3 is expected to be empty
+[idt] Merged cell A4 is expected to be empty
+[idt] Merged cell B4 is expected to be empty
+[idt] Merged cell C4 is expected to be empty
+[idt] Merged cell A5 is expected to be empty
+[idt] Merged cell B5 is expected to be empty
+[idt] Merged cell C5 is expected to be empty
+[adt_primitive] Merged cell E5 is expected to be empty
+[adt_primitive] Merged cell E7 is expected to be empty
+[adt_primitive] Merged cell E8 is expected to be empty
+[adt_primitive] Merged cell E9 is expected to be empty
+[adt_primitive] Merged cell E10 is expected to be empty
+[adt_primitive] Merged cell E11 is expected to be empty
+[adt_primitive] Merged cell E12 is expected to be empty
+[adt_primitive] Merged cell E13 is expected to be empty
+[idt] Merged cell B3 is expected to be empty
+[idt] Merged cell B4 is expected to be empty
+[idt] Merged cell B5 is expected to be empty
+[adt_composite] Numeric value in naming column at D6: 15
+[adt_composite] Numeric value in naming column at D7: 15
+[idt] Numeric value in naming column at D6: 15
+[idt] Numeric value in naming column at D7: 15
+[adt_composite] Duplicate numerical value at D7: 15
+[idt] Duplicate numerical value at D7: 15

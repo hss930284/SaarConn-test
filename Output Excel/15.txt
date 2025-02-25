@@ -1,0 +1,16 @@
+Sheet: swc_info, Cell: J1
+  - Original Value: False
+  - Updated Value: false
+--------------------------------------------------
+Sheet: swc_info, Cell: J2
+  - Original Value: False
+  - Updated Value: no
+--------------------------------------------------
+Sheet: swc_info, Cell: J3
+  - Original Value: False
+  - Updated Value: false
+--------------------------------------------------
+Sheet: swc_info, Cell: J4
+  - Original Value: False
+  - Updated Value: false
+--------------------------------------------------

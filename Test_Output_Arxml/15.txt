@@ -1,0 +1,7 @@
+Line 4906 (New File): </R-PORT-PROTOTYPE>
+-------------------------
+Line 4907 (New File): <R-PORT-PROTOTYPE >
+-------------------------
+Line 4908 (New File): <SHORT-NAME>Trigger_R_Port</SHORT-NAME>
+-------------------------
+Line 4909 (New File): <REQUIRED-INTERFACE-TREF DEST="TRIGGER-INTERFACE">/SharedElements/PortInterfaces/Trigger/Trigger1</REQUIRED-INTERFACE-TREF>

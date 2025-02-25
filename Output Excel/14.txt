@@ -1,0 +1,48 @@
+Sheet: adt_primitive, Cell: N1
+  - Original Value: 
+  - Updated Value: nan
+--------------------------------------------------
+Sheet: adt_primitive, Cell: N2
+  - Original Value: 
+  - Updated Value: nan
+--------------------------------------------------
+Sheet: adt_primitive, Cell: N3
+  - Original Value: 
+  - Updated Value: nan
+--------------------------------------------------
+Sheet: adt_primitive, Cell: N4
+  - Original Value: 
+  - Updated Value: nan
+--------------------------------------------------
+Sheet: adt_primitive, Cell: N5
+  - Original Value: 
+  - Updated Value: nan
+--------------------------------------------------
+Sheet: adt_primitive, Cell: N6
+  - Original Value: 
+  - Updated Value: nan
+--------------------------------------------------
+Sheet: adt_primitive, Cell: N7
+  - Original Value: 
+  - Updated Value: nan
+--------------------------------------------------
+Sheet: adt_primitive, Cell: N8
+  - Original Value: 
+  - Updated Value: nan
+--------------------------------------------------
+Sheet: adt_primitive, Cell: N9
+  - Original Value: 
+  - Updated Value: nan
+--------------------------------------------------
+Sheet: adt_primitive, Cell: N10
+  - Original Value: 
+  - Updated Value: nan
+--------------------------------------------------
+Sheet: adt_primitive, Cell: N11
+  - Original Value: 
+  - Updated Value: nan
+--------------------------------------------------
+Sheet: adt_primitive, Cell: N12
+  - Original Value: 
+  - Updated Value: nan
+--------------------------------------------------

@@ -10,6 +10,7 @@ import Pkg_struct # Import the Pkg_struct module for package structure definitio
 import arelements_def as arelements_def # Import the arelements_def module for AUTOSAR element definitions
 import config
 
+
 warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl") # Suppress specific warnings from the openpyxl module
 
 # Reload the arelements_def and Pkg_struct module for dynamic updates
@@ -53,6 +54,67 @@ excel_reader = ExcelReader()
 
 # Get the file path from the user
 excel_reader.get_file_path_from_user()
+
+
+import validator  # Import validation module
+
+# Validate the Excel file before proceeding
+
+attempts = 0
+
+initial_errors = []
+
+final_errors = []
+
+while True:
+
+    attempts += 1
+
+    errors = validator.validate_excel(excel_reader.file_path)  # Validate the Excel file
+
+    if attempts == 1:
+
+        initial_errors = errors.copy()  # Store first validation errors
+
+    # Always log all errors (Info, Warning, Critical)
+
+    # Generate HTML report for every validation attempt
+    validator.generate_html_report(errors, attempts)
+
+    validator.print_colored_errors(errors)
+
+    validator.log_errors(errors, attempts)
+
+    if errors["Critical"]:  # Stop only if Critical errors exist
+
+        print("\n❌ Excel validation failed! Please check 'validation_log.txt' and fix the issues.")
+
+        retry = input("🔁 Do you want to retry with a new file? (yes/no): ").strip().lower()
+
+        if retry == "yes":
+
+            excel_reader.get_file_path_from_user()  # Ask for a new file path
+
+            continue  # Retry validation with a new file
+
+        else:
+
+            print("❌ Exiting program. Fix validation issues before retrying.")
+
+            exit(1)  # Stop execution if user does not want to retry
+
+    # If only Info/Warnings exist, proceed
+
+    final_errors = errors.copy()  # Store final error-free state
+
+    print("\n✅ Excel validation passed with warnings/info. Proceeding with ARXML generation...\n")
+
+    break  # Exit validation loop and proceed
+
+# Generate validation summary
+
+validator.generate_summary(initial_errors, final_errors, attempts) 
+
 
 # Read the Excel file
 workbook, excel_file = excel_reader.read_user_defined_excel()
@@ -248,7 +310,6 @@ def my_application_function():
 
     rnblname, rs, cic, rteeventname, rteeventtype, rteeventinfo = excel_reader.read_columns(swc_info, 'H', 'M')
 
-    # print(rnblname)
 
     arelements_def.RTE_Event()
 
@@ -258,9 +319,7 @@ def my_application_function():
 
         if a in processed_types:
             continue
-        processed_types.add(a)  
- 
-        # print(f"Processing: {a}, Category: {a}")
+        processed_types.add(a) 
 
         # Check the type of RTE event and call the corresponding function
         if e == 'AsynchronousServerCallReturnsEvent':
@@ -893,7 +952,7 @@ def my_complex_device_driver_function():
 
     rnblname, rs, cic, rteeventname, rteeventtype, rteeventinfo = excel_reader.read_columns(swc_info, 'H', 'M')
 
-    # print(rnblname)
+
 
     arelements_def.RTE_Event()
 
@@ -1538,7 +1597,7 @@ def my_ecu_abstraction_function():
 
     rnblname, rs, cic, rteeventname, rteeventtype, rteeventinfo = excel_reader.read_columns(swc_info, 'H', 'M')
 
-    # print(rnblname)
+
 
     arelements_def.RTE_Event()
 
@@ -2189,7 +2248,7 @@ def my_sensor_actuator_function():
 
     rnblname, rs, cic, rteeventname, rteeventtype, rteeventinfo = excel_reader.read_columns(swc_info, 'H', 'M')
 
-    # print(rnblname)
+
 
     arelements_def.RTE_Event()
 
@@ -2834,7 +2893,7 @@ def my_service_proxy_function():
 
     rnblname, rs, cic, rteeventname, rteeventtype, rteeventinfo = excel_reader.read_columns(swc_info, 'H', 'M')
 
-    # print(rnblname)
+
 
     arelements_def.RTE_Event()
 
@@ -3479,7 +3538,7 @@ def my_service_function():
 
     rnblname, rs, cic, rteeventname, rteeventtype, rteeventinfo = excel_reader.read_columns(swc_info, 'H', 'M')
 
-    # print(rnblname)
+
 
     arelements_def.RTE_Event()
 
@@ -4071,68 +4130,50 @@ def my_service_function():
 # ib_data f column , ports i columns
 
 def rnblaccess(Currentrnbl):
-
-    print("\n[DEBUG] Starting rnblaccess function")
-    print(f"[DEBUG] Processing for Current Rnbl: {Currentrnbl}")
-    print(f"[DEBUG] Current folder: {currentfolder}, Current SWC shortname: {CurrentSWC_shortname}")
     
     # Read argument_col (Column G) from Excel
     argument_col = excel_reader.read_columns(ports, 'G', 'G') or []
-    
-    # Debugging: Print raw argument data
-    print(f"[DEBUG] Raw Argument Column Data: {argument_col}")
     
     # Flatten the list to remove any nested lists
     def flatten(lst):
         return [item for sublist in lst for item in sublist] if any(isinstance(i, list) for i in lst) else lst
     
     argument_col = flatten(argument_col)
-    
-    # Debugging: Print after flattening
-    print(f"[DEBUG] Flattened Argument Column: {argument_col}")
 
     #interface check
 
     inf_col = excel_reader.read_columns(ports, 'D', 'D') or []  # Ensure argument_col is at least an empty list    
 
-    # Debugging: Print raw argument data
-    print(f"[DEBUG] Raw Interface Column Data: {inf_col}")
 
     inf_col = flatten(inf_col)
     
-    # Debugging: Print after flattening
-    print(f"[DEBUG] Flattened Interface Column: {inf_col}")
 
     #accessing runnable check : ports
 
     ports_Acc_Rnbl = excel_reader.read_columns(ports, 'I', 'I') or []  # Ensure argument_col is at least an empty list    
 
-    # Debugging: Print raw argument data
-    print(f"[DEBUG] Raw accessing runnable from ports sheet Data: {ports_Acc_Rnbl}")
 
     ports_Acc_Rnbl = flatten(ports_Acc_Rnbl)
     
-    # Debugging: Print after flattening
-    print(f"[DEBUG] Flattened accessing runnable from ports Column: {ports_Acc_Rnbl}")
 
     # Call main function if any predefined argument exists
 
     for a,b in zip(argument_col,  ports_Acc_Rnbl):
 
         if 'dra' in a and b == Currentrnbl :
-            print(f"[DEBUG] Found 'dra', calling arelements_def.dra()")
+
             arelements_def.dra()
         elif 'drpa' in a and b == Currentrnbl:
-            print(f"[DEBUG] Found 'drpa', calling arelements_def.drpa()")
+
             arelements_def.drpa()
         elif 'drpv' in a and b == Currentrnbl:
-            print(f"[DEBUG] Found 'drpv', calling arelements_def.drpv()")
+            
             arelements_def.drpv()
         elif 'dsp' in a and b == Currentrnbl:
-            print(f"[DEBUG] Found 'dsp', calling arelements_def.dsp()")
+            
             arelements_def.dsp()
         elif 'dwa' in a and b == Currentrnbl:
-            print(f"[DEBUG] Found 'dwa', calling arelements_def.dwa()")
+            
             arelements_def.dwa()
         else :
             pass
@@ -4144,16 +4185,16 @@ def rnblaccess(Currentrnbl):
     for a,b in zip(inf_col,  ports_Acc_Rnbl):
 
         if 'ModeSwitchInterface' in a and b == Currentrnbl:
-            print(f"[DEBUG] Found 'ModeSwitchInterface', calling arelements_def.msp()")
+            
             arelements_def.msp()        
              
         elif 'ParameterInterface' in a and b == Currentrnbl :
-            print(f"[DEBUG] Found one of the 'ParameterInterface' 'ConstantMemory', 'PerInstanceParameter', 'SharedParameter', calling arelements_def.pa()")
+           
             arelements_def.pa()
             pa_already_triggered = 1
 
         elif 'ClientServerInterface' in a and b == Currentrnbl:
-            print(f"[DEBUG] Found 'ClientServerInterface', calling arelements_def.sscp()")
+           
             arelements_def.sscp()
 
     IBVariableType, IBVariableName, ApplicationDataTypeName, Initvalue, AccessingRunnable = excel_reader.read_columns(ib_data, 'B', 'F')
@@ -4168,50 +4209,40 @@ def rnblaccess(Currentrnbl):
 
     for irvt,br in zip(IBVariableType, AccessingRunnable):
         if irvt in ['ImplicitInterRunnableVariables', 'ExplicitInterRunnableVariable'] and br == Currentrnbl :#still read or write bifurcation is pending
-            print(f"[DEBUG] Found 'ImplicitInterRunnableVariables', calling arelements_def.IRVRA()")        
+            
             arelements_def.IRVRA()
             break
 
     for a,b,c,d,e in zip(IBVariableType, IBVariableName, ApplicationDataTypeName,Initvalue, AccessingRunnable):
         
         if a == 'ConstantMemory' and e == Currentrnbl:
-            print(f"[DEBUG] Calling arelements_def.CMCPA_ConstantMemory({currentfolder}, {CurrentSWC_shortname}, {b})")       
+            
             arelements_def.CMCPA_ConstantMemory(currentfolder, CurrentSWC_shortname,b)
             
         elif a == 'PerInstanceParameter'and e == Currentrnbl:
-            print(f"[DEBUG] Calling arelements_def.PICPVA_PerInstanceParameter({currentfolder}, {CurrentSWC_shortname}, {b})")           
+            
             arelements_def.PICPVA_PerInstanceParameter(currentfolder, CurrentSWC_shortname,b)
 
         elif a == 'SharedParameter'and e == Currentrnbl:
-            print(f"[DEBUG] Calling arelements_def.SCPVA_SharedParameter({currentfolder}, {CurrentSWC_shortname}, {b})")            
+            
             arelements_def.SCPVA_SharedParameter(currentfolder, CurrentSWC_shortname,b) #ideally we need port parameter here and then shared parameter
             
         elif a == 'ExplicitInterRunnableVariable' and e == Currentrnbl:
-            print(f"[DEBUG] Calling arelements_def.IRVRA_ExplicitInterRunnableVariable({b}, {currentfolder}, {CurrentSWC_shortname})")                       
+            
             arelements_def.IRVRA_ExplicitInterRunnableVariable(b, currentfolder, CurrentSWC_shortname )
             
         elif a == 'ImplicitInterRunnableVariables'and e == Currentrnbl:
-            print(f"[DEBUG] Calling arelements_def.IRVRA_ImplicitInterRunnableVariable({b}, {currentfolder}, {CurrentSWC_shortname})")           
+            
             arelements_def.IRVRA_ImplicitInterRunnableVariable(b, currentfolder, CurrentSWC_shortname)
 
         else :
-            print(f"[DEBUG] Invalid {a} for IRV access")
+            print(f"Invalid {a} for IRV access")
     
     # Fetch filtered data from read_write_access() for ReceiverPort and SenderPort
     receiver_port_data = read_write_access("ReceiverPort", Currentrnbl)
     
     sender_port_data = read_write_access("SenderPort", Currentrnbl)
     
-    # Debugging: Print filtered data
-    print(f"\n[DEBUG] Filtered Data from read_write_access (ReceiverPort, {Currentrnbl}):")
-    
-    for row in receiver_port_data:
-        print(row)
-    
-    print(f"\n[DEBUG] Filtered Data from read_write_access (SenderPort, {Currentrnbl}):")
-    
-    for row in sender_port_data:
-        print(row)
     
     # Iterate over filtered data for ReceiverPort
     for _, port_name, interface_type, interface_name, data_element, argument in receiver_port_data:
@@ -4219,41 +4250,41 @@ def rnblaccess(Currentrnbl):
         if interface_type == "SenderReceiverInterface" :
            
             if argument == "dra":
-                print(f"[DEBUG] Calling arelements_def.DRA_RPort_SR_DataElement({currentfolder}, {CurrentSWC_shortname}, {port_name}, {interface_name}, {data_element})")
+                
                 arelements_def.DRA_RPort_SR_DataElement(currentfolder, CurrentSWC_shortname, port_name, interface_name, data_element)
             elif argument == "drpa":
-                print(f"[DEBUG] Calling arelements_def.DRPA_RPort_SR_DataElement({currentfolder}, {CurrentSWC_shortname}, {port_name}, {interface_name}, {data_element})")
+                
                 arelements_def.DRPA_RPort_SR_DataElement(currentfolder, CurrentSWC_shortname, port_name, interface_name, data_element)
             elif argument == "drpv":
-                print(f"[DEBUG] Calling arelements_def.DRPV_RPort_SR_DataElement({currentfolder}, {CurrentSWC_shortname}, {port_name}, {interface_name}, {data_element})")
+                
                 arelements_def.DRPV_RPort_SR_DataElement(currentfolder, CurrentSWC_shortname, port_name, interface_name, data_element)
             else :
-                print(f"[DEBUG] Invalid {interface_type} for data access dra, drpa and drpv")
+                print(f" Invalid {interface_type} for data access dra, drpa and drpv")
         
         elif interface_type == "NvDataInterface":
            
             if argument == "dra":
-                print(f"[DEBUG] Calling arelements_def.DRA_RPort_nvd_NvData({currentfolder}, {CurrentSWC_shortname}, {port_name}, {interface_name}, {data_element})")
+                
                 arelements_def.DRA_RPort_nvd_NvData(currentfolder, CurrentSWC_shortname, port_name, interface_name, data_element)
             elif argument == "drpa":
-                print(f"[DEBUG] Calling arelements_def.DRPA_RPort_nvd_NvData({currentfolder}, {CurrentSWC_shortname}, {port_name}, {interface_name}, {data_element})")
+                
                 arelements_def.DRPA_RPort_nvd_NvData(currentfolder, CurrentSWC_shortname, port_name, interface_name, data_element)
             elif argument == "drpv":
-                print(f"[DEBUG] Calling arelements_def.DRPV_RPort_nvd_NvData({currentfolder}, {CurrentSWC_shortname}, {port_name}, {interface_name}, {data_element})")
+                
                 arelements_def.DRPV_RPort_nvd_NvData(currentfolder, CurrentSWC_shortname, port_name, interface_name, data_element)
             else :
-                print(f"[DEBUG] Invalid {interface_type} for data access dra, drpa and drpv")
+                print(f" Invalid {interface_type} for data access dra, drpa and drpv")
 
         elif interface_type == "ParameterInterface":
-            print(f"[DEBUG] Calling arelements_def.CPA_RPort_prm_Parameter({currentfolder}, {CurrentSWC_shortname}, {port_name}, {interface_name}, {data_element})")
+            
             arelements_def.CPA_RPort_prm_Parameter(currentfolder, CurrentSWC_shortname, port_name, interface_name, data_element)
         
         elif interface_type == "ClientServerInterface":
-            print(f"[DEBUG] Calling arelements_def.SSCP_RPort_CS_Operation({currentfolder}, {CurrentSWC_shortname}, {port_name}, {interface_name}, {data_element})")
+            
             arelements_def.SSCP_RPort_CS_Operation(currentfolder, CurrentSWC_shortname, port_name, interface_name, data_element)
         
         else :
-            print(f"[DEBUG] Invalid {interface_type} and port type for data access")
+            print(f" Invalid {interface_type} and port type for data access")
 
     # Iterate over filtered data for SenderPort
     for _, port_name, interface_type, interface_name, data_element, argument in sender_port_data:
@@ -4261,31 +4292,31 @@ def rnblaccess(Currentrnbl):
         if interface_type == "SenderReceiverInterface" :
 
             if argument == "dsp":
-                print(f"[DEBUG] Calling arelements_def.DSP_RPort_SR_DataElement({currentfolder}, {CurrentSWC_shortname}, {port_name}, {interface_name}, {data_element})")
+                
                 arelements_def.DSP_PPort_SR_DataElement(currentfolder, CurrentSWC_shortname, port_name, interface_name, data_element)
             elif argument == "dwa":
-                print(f"[DEBUG] Calling arelements_def.DWA_RPort_SR_DataElement({currentfolder}, {CurrentSWC_shortname}, {port_name}, {interface_name}, {data_element})")
+                
                 arelements_def.DWA_PPort_SR_DataElement(currentfolder, CurrentSWC_shortname, port_name, interface_name, data_element)
             else :
-                print(f"[DEBUG] Invalid {interface_type} for data access dsp,dwa")       
+                print(f" Invalid {interface_type} for data access dsp,dwa")       
         
         elif interface_type == "NvDataInterface":
 
             if argument == "dsp":
-                print(f"[DEBUG] Calling arelements_def.DSP_RPort_SR_DataElement({currentfolder}, {CurrentSWC_shortname}, {port_name}, {interface_name}, {data_element})")
+                
                 arelements_def.DSP_PPort_SR_DataElement(currentfolder, CurrentSWC_shortname, port_name, interface_name, data_element)
             elif argument == "dwa":
-                print(f"[DEBUG] Calling arelements_def.DWA_RPort_SR_DataElement({currentfolder}, {CurrentSWC_shortname}, {port_name}, {interface_name}, {data_element})")
+                
                 arelements_def.DWA_PPort_SR_DataElement(currentfolder, CurrentSWC_shortname, port_name, interface_name, data_element)
             else :
-                print(f"[DEBUG] Invalid {interface_type} for data access dsp,dwa")       
+                print(f" Invalid {interface_type} for data access dsp,dwa")       
         
         elif interface_type == "ModeSwitchInterface":
-            print(f"[DEBUG] Calling arelements_def.MSP_PPort_msi_ModeGroup({currentfolder}, {CurrentSWC_shortname}, {port_name}, {interface_name}, {data_element})")
+            
             arelements_def.MSP_PPort_msi_ModeGroup(currentfolder, CurrentSWC_shortname, port_name, interface_name, data_element)
         
         else :
-            print(f"[DEBUG] Invalid {interface_type} and port type for data access")
+            print(f" Invalid {interface_type} and port type for data access")
 
 def rnblaccess_WrittenIRV (Currentrnbl):
 
@@ -4297,30 +4328,22 @@ def rnblaccess_WrittenIRV (Currentrnbl):
 
         for a,b,c,d,e in zip(IBVariableType, IBVariableName, ApplicationDataTypeName,Initvalue, AccessingRunnable):
             if a == 'ExplicitInterRunnableVariable' and e == Currentrnbl:
-                print(f"[DEBUG] Calling arelements_def.IRVWA_ExplicitInterRunnableVariable({b}, {currentfolder}, {CurrentSWC_shortname})")               
+                
                 arelements_def.IRVWA_ExplicitInterRunnableVariable(b, currentfolder, CurrentSWC_shortname )
                 
             elif a == 'ImplicitInterRunnableVariables'and e == Currentrnbl:
-                print(f"[DEBUG] Calling arelements_def.IRVWA_ImplicitInterRunnableVariable({b}, {currentfolder}, {CurrentSWC_shortname})")                
+                
                 arelements_def.IRVWA_ImplicitInterRunnableVariable(b, currentfolder, CurrentSWC_shortname)
 
             else :
-                print(f"[DEBUG] Invalid {a} for IRV access")
+                print(f" Invalid {a} for IRV access")
 
 def read_write_access(port_type_filter, Currentrnbl):
-   print("\n[DEBUG] Starting read_write_access function")
-   print(f"[DEBUG] Filtering for Port Type: {port_type_filter}, Current Rnbl: {Currentrnbl}")
+
    # Read required columns from Excel
    port_type_col, port_name_col, interface_type_col, interface_name_col, data_element_col, argument_col, _, accessing_rnbl_col = excel_reader.read_columns(ports, 'B', 'I')
-   # Debugging: Print raw data from Excel
-   print(f"[DEBUG] Raw Data Read from Excel:")
-   print(f"  Port Type Col: {port_type_col}")
-   print(f"  Port Name Col: {port_name_col}")
-   print(f"  Interface Type Col: {interface_type_col}")
-   print(f"  Interface Name Col: {interface_name_col}")
-   print(f"  Data Element Col: {data_element_col}")
-   print(f"  Argument Col: {argument_col}")
-   print(f"  Accessing Rnbl Col: {accessing_rnbl_col}")
+
+
    # Ensure all columns are lists and flatten them if necessary
    def flatten(lst):
        return [item for sublist in lst for item in sublist] if any(isinstance(i, list) for i in lst) else lst
@@ -4341,18 +4364,10 @@ def read_write_access(port_type_filter, Currentrnbl):
    data_element_col = flatten(data_element_col or [])  
    argument_col = flatten(argument_col or [])  
    accessing_rnbl_col = fill_merged_cells(flatten(accessing_rnbl_col or []))
-   # Debugging: Print cleaned-up data
-   print(f"\n[DEBUG] After Flattening & Merged Cell Handling:")
-   print(f"  Port Type Col: {port_type_col}")
-   print(f"  Port Name Col: {port_name_col}")
-   print(f"  Interface Type Col: {interface_type_col}")
-   print(f"  Interface Name Col: {interface_name_col}")
-   print(f"  Data Element Col: {data_element_col}")
-   print(f"  Argument Col: {argument_col}")
-   print(f"  Accessing Rnbl Col: {accessing_rnbl_col}")
+
    # Ensure mandatory fields are not empty
    if not all(port_name_col) or not all(interface_name_col) or not all(data_element_col) or not all(argument_col):
-       print("[ERROR] Mandatory fields cannot be empty!")
+
        raise ValueError("Mandatory fields (port_name_col, interface_name_col, data_element_col, argument_col) cannot be empty.")
    # Filter rows where accessing_rnbl_col matches Currentrnbl
    filtered_data = []
@@ -4361,16 +4376,12 @@ def read_write_access(port_type_filter, Currentrnbl):
            data_element_col, argument_col, accessing_rnbl_col):
        if rnbl == Currentrnbl:
            filtered_data.append((ptype, pname, itype, iname, delem, arg))
-   # Debugging: Print filtered data
-   print(f"\n[DEBUG] Filtered Data (Matching Currentrnbl={Currentrnbl}):")
-   for row in filtered_data:
-       print(row)
+
+   
    # Further filter by port type
    final_filtered_data = [row for row in filtered_data if row[0] == port_type_filter]
-   # Debugging: Print final filtered data
-   print(f"\n[DEBUG] Final Filtered Data (Matching Port Type: {port_type_filter}):")
-   for row in final_filtered_data:
-       print(row)
+
+
    return final_filtered_data
 
 
@@ -4875,13 +4886,7 @@ def createcompumethod():
    CompuMethodName, CompuMethodCategory, CompuScaleOROffset, EnumStatesORLSB, Unit = excel_reader.read_columns(
        adt_primitive, 'D', 'H'
    )
-   # Debug: Print raw data from Excel
-   print("\nDEBUG: Raw data from Excel")
-   print(f"CompuMethodName: {CompuMethodName}")
-   print(f"CompuMethodCategory: {CompuMethodCategory}")
-   print(f"CompuScaleOROffset: {CompuScaleOROffset}")
-   print(f"EnumStatesORLSB: {EnumStatesORLSB}")
-   print(f"Unit: {Unit}")
+
    # Dictionary to store collected data
    compu_methods = {}
    current_compu_method_name = None
@@ -4899,7 +4904,7 @@ def createcompumethod():
                    "compu_scale": compu_scale if compu_scale else [],
                    "enum_states": enum_states if enum_states else [],
                }
-               print(f"DEBUG: Saved data for {current_compu_method_name} -> Scale: {compu_scale}, Enum: {enum_states}")
+               
            # **Reset lists and assign new method details**
            current_compu_method_name = name
            current_compu_method_category = category
@@ -4919,15 +4924,14 @@ def createcompumethod():
            "compu_scale": compu_scale if compu_scale else [],
            "enum_states": enum_states if enum_states else [],
        }
-       print(f"DEBUG: Final Save for {current_compu_method_name} -> Scale: {compu_scale}, Enum: {enum_states}")
-   print("\nDEBUG: Completed CompuMethod collection, now processing...")
+      
    # **Process all collected methods using if-else**
    for method_name, details in compu_methods.items():
        category = details["category"]
        compu_scale = details["compu_scale"]
        enum_states = details["enum_states"]
        unit = details["unit"]
-       print(f"\nDEBUG: Processing CompuMethod: {method_name}, Category: {category}, Scale: {compu_scale}, Enum: {enum_states}, Unit: {unit}")
+       
        if category == "IDENTICAL":
            handle_identical(method_name, compu_scale, enum_states, unit)
        elif category == "TEXTTABLE":
@@ -4950,7 +4954,7 @@ def createcompumethod():
            handle_bitfield_texttable(method_name, compu_scale, enum_states, unit)
        else:
            print(f"Warning: Invalid CompuMethod category '{category}' for method '{method_name}'")
-   print("\nDEBUG: CompuMethod processing completed.")
+
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
@@ -5020,67 +5024,66 @@ def createprimitive():
 
 def createcomposite():
    """Creates composite data types (Record & Array) from Excel data."""
-   print("Reading Excel columns...")
+ 
    Composite_category, ARDT_ShortName, ARDT_element_shortname, ARDT_element_type, data_type = excel_reader.read_columns( adt_composite, 'B', 'F' )
-   print(f"Read {len(Composite_category)} rows from Excel.")
+
    previous_category = None
    previous_shortname = None
    record_elements = []
    for idx, (a, b, c, d, e) in enumerate(zip( Composite_category, ARDT_ShortName, ARDT_element_shortname, ARDT_element_type, data_type )):
-       print(f"\nProcessing Row {idx + 1}:")
-       print(f"Category: {a}, ShortName: {b}, ElementShortName: {c}, Type: {d}, DataType: {e}")
+
        # Handling RECORD (STRUCTURE)
        if a == 'RECORD':  
-           print("Detected RECORD category.")
+
            if previous_category == 'RECORD' and previous_shortname and previous_shortname != b:
-               print(f"Creating ApplicationRecordDataType for {previous_shortname}")
+
                Record_folder_elements = arxml_structure.get_variable('Record_folder_elements')
                arelements_def.ApplicationRecordDataType(Record_folder_elements, previous_shortname)
-               print(f"Record elements before unpacking: {record_elements}")  # Debugging print
+
                for elem in record_elements:
                    if len(elem) == 3:
                        elem_c, elem_d, elem_e = elem
-                       print(f"Adding Record Element: {elem_c}, Type: {elem_d}, DataType: {elem_e}")
+                       
                        arelements_def.ApplicationRecordDataType_elements(elem_c, elem_d, elem_e)
                    else:
                        print(f"Skipping malformed record element: {elem}")  # If something is incorrect
                record_elements = []  
-               print("Cleared record elements for new RECORD.")
+               
            previous_category = a
            previous_shortname = b
            record_elements.append((c, d, e))
-           print(f"Collected RECORD element: {c}, Type: {d}, DataType: {e}")
+           
        # Handling ARRAY
        elif a == 'ARRAY':  
-           print("Detected ARRAY category.")
+           
            Array_folder_elements = arxml_structure.get_variable('Array_folder_elements')
            if (b, c, d, e) not in record_elements:
                if d == 'VARIABLE':
-                   print(f"Creating ApplicationArrayDataType_Variable for {b}")
+  
                    arelements_def.ApplicationArrayDataType_Variable(Array_folder_elements, b, e, c)
                elif d == 'FIXED':
-                   print(f"Creating ApplicationArrayDataType_Fixed for {b}")
+                 
                    arelements_def.ApplicationArrayDataType_Fixed(Array_folder_elements, b, e, c)
                else:
                    print(f"Invalid array category '{d}' for '{b}'. Expected 'VARIABLE' or 'FIXED'.")
                record_elements.append((b, c, d, e))
-               print(f"Marked ARRAY row as processed: {b}, {c}, {d}, {e}")
+               
            else:
                print("Skipping duplicate ARRAY row.")
    # Finalizing the last RECORD
    if previous_category == 'RECORD' and previous_shortname:
-       print(f"Finalizing last RECORD: {previous_shortname}")
+
        Record_folder_elements = arxml_structure.get_variable('Record_folder_elements')
        arelements_def.ApplicationRecordDataType(Record_folder_elements, previous_shortname)
-       print(f"Record elements before unpacking: {record_elements}")  # Debugging print
+
        for elem in record_elements:
            if len(elem) == 3:
                elem_c, elem_d, elem_e = elem
-               print(f"Adding final Record Element: {elem_c}, Type: {elem_d}, DataType: {elem_e}")
+               
                arelements_def.ApplicationRecordDataType_elements(elem_c, elem_d, elem_e)
            else:
                print(f"Skipping malformed record element: {elem}")
-   print("Processing completed.")
+
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
@@ -5090,10 +5093,10 @@ def createcomposite():
 def createcustomIDT():
    # Get the Data Constraints package from shared elements
    ImplementationDataTypes_folder_elements = arxml_structure.get_variable('ImplementationDataTypes_folder_elements')
-   print("[DEBUG] Retrieved ImplementationDataTypes_folder_elements")
+
    # Read columns: type, shortname, arraysize/idtelementshortname, IDT
    IDT_type, IDT_shortname, IRDT_element_shortname, data_type = excel_reader.read_columns(idt, 'B', 'E')
-   print(f"[DEBUG] Read {len(IDT_type)} IDT entries from Excel")
+
    record_shortname = None
    record_elements = []
    for i in range(len(IDT_type)):
@@ -5101,69 +5104,69 @@ def createcustomIDT():
        idt_shortname = IDT_shortname[i]
        idt_element_shortname = IRDT_element_shortname[i]
        idt_data_type = data_type[i]
-       print(f"[DEBUG] Processing index {i}: Type={idt_type}, Shortname={idt_shortname}, Element={idt_element_shortname}, DataType={idt_data_type}")
+       
        if idt_type == 'ARRAY_FIXED':
            # Process any pending RECORD before handling ARRAY_FIXED
            if record_shortname:
-               print(f"[DEBUG] Processing collected RECORD: {record_shortname} with {len(record_elements)} elements")
+               
                arelements_def.ImplementationDataType_Structure(ImplementationDataTypes_folder_elements, record_shortname)
                for element_shortname, element_data_type in record_elements:
-                   print(f"[DEBUG] Adding RECORD element: {element_shortname}, {element_data_type}")
+                   
                    arelements_def.ImplementationDataType_Record_elements(element_shortname, element_data_type)
                record_shortname = None
                record_elements.clear()
-           print(f"[DEBUG] Creating ARRAY_FIXED: {idt_shortname}, {idt_element_shortname}, {idt_data_type}")
+           
            arelements_def.ImplementationDataType_ArrayFixed(ImplementationDataTypes_folder_elements,
                                                              idt_shortname, idt_element_shortname, idt_data_type)
        elif idt_type == 'ARRAY_VARIABLE':
            # Process any pending RECORD before handling ARRAY_VARIABLE
            if record_shortname:
-               print(f"[DEBUG] Processing collected RECORD: {record_shortname} with {len(record_elements)} elements")
+               
                arelements_def.ImplementationDataType_Structure(ImplementationDataTypes_folder_elements, record_shortname)
                for element_shortname, element_data_type in record_elements:
-                   print(f"[DEBUG] Adding RECORD element: {element_shortname}, {element_data_type}")
+                   
                    arelements_def.ImplementationDataType_Record_elements(element_shortname, element_data_type)
                record_shortname = None
                record_elements.clear()
-           print(f"[DEBUG] Creating ARRAY_VARIABLE: {idt_shortname}, {idt_element_shortname}, {idt_data_type}")
+           
            arelements_def.ImplementationDataType_ArrayVariable(ImplementationDataTypes_folder_elements,
                                                                 idt_shortname, idt_element_shortname, idt_data_type)
        elif idt_type == 'PRIMITIVE':
            # Process any pending RECORD before handling PRIMITIVE
            if record_shortname:
-               print(f"[DEBUG] Processing collected RECORD: {record_shortname} with {len(record_elements)} elements")
+               
                arelements_def.ImplementationDataType_Structure(ImplementationDataTypes_folder_elements, record_shortname)
                for element_shortname, element_data_type in record_elements:
-                   print(f"[DEBUG] Adding RECORD element: {element_shortname}, {element_data_type}")
+                   
                    arelements_def.ImplementationDataType_Record_elements(element_shortname, element_data_type)
                record_shortname = None
                record_elements.clear()
-           print(f"[DEBUG] Creating PRIMITIVE: {idt_shortname}, {idt_data_type}")
+           
            arelements_def.ImplementationDataType(ImplementationDataTypes_folder_elements,
                                                  idt_shortname, idt_data_type)
        elif idt_type == 'RECORD':
            if record_shortname and idt_shortname != record_shortname:
                # If a new RECORD structure starts, process the previous one
-               print(f"[DEBUG] Processing collected RECORD: {record_shortname} with {len(record_elements)} elements")
+               
                arelements_def.ImplementationDataType_Structure(ImplementationDataTypes_folder_elements, record_shortname)
                for element_shortname, element_data_type in record_elements:
-                   print(f"[DEBUG] Adding RECORD element: {element_shortname}, {element_data_type}")
+                   
                    arelements_def.ImplementationDataType_Record_elements(element_shortname, element_data_type)
                record_elements.clear()
            record_shortname = idt_shortname
            record_elements.append((idt_element_shortname, idt_data_type))
-           print(f"[DEBUG] Collecting RECORD elements for {record_shortname}: {idt_element_shortname}, {idt_data_type}")
+           
        else:
            print(f"[ERROR] Unknown IDT_type: {idt_type}")
            raise ValueError(f"Unknown IDT_type: {idt_type}")
    # Process any remaining RECORD at the end of the loop
    if record_shortname and record_elements:
-       print(f"[DEBUG] Final Processing for RECORD: {record_shortname} with {len(record_elements)} elements")
+     
        arelements_def.ImplementationDataType_Structure(ImplementationDataTypes_folder_elements, record_shortname)
        for element_shortname, element_data_type in record_elements:
-           print(f"[DEBUG] Adding RECORD element: {element_shortname}, {element_data_type}")
+           
            arelements_def.ImplementationDataType_Record_elements(element_shortname, element_data_type)
-   print("[DEBUG] Finished processing all IDT entries")
+
 
 
 
@@ -5198,7 +5201,7 @@ def Main():
         indent(root2)
 
         # Write the XML declaration with double quotes
-        with open("output113.arxml", "wb") as f:
+        with open(r"D:\\One_Drive\\OneDrive - Tata Technologies\\SAARCONN\\Eliminating_SystemDesk\tests\\Sushant_validation_21_02\\output_arxml\\default_24_02.arxml", "wb") as f:
             f.write(b'<?xml version="1.0" encoding="utf-8"?>\n')
             tree.write(f, encoding="utf-8", xml_declaration=False)
 
